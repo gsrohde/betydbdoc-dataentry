@@ -1,6 +1,6 @@
 # Workflow for the Biofuel Ecophysiological Traits and Yields Database (BETYdb)
 
-      This is the userguide for entering data into the BETYdb database. The goal of this guide is to provide a consistent method of data entry that is transparent, reproducible, and well documented. The steps here generally accomplish one of two goals. The first goal is to provide data that is associated with the experimental methods, species, site, and other factors associated with the original study. The second goal is to provide a record of all the transformations, assumptions, and data extraction steps used to migrate data from the primary literature to the standardized framework of the database.
+This is the userguide for entering data into the BETYdb database. The goal of this guide is to provide a consistent method of data entry that is transparent, reproducible, and well documented. The steps here generally accomplish one of two goals. The first goal is to provide data that is associated with the experimental methods, species, site, and other factors associated with the original study. The second goal is to provide a record of all the transformations, assumptions, and data extraction steps used to migrate data from the primary literature to the standardized framework of the database.
       
 You will need to create the following accounts:
 
@@ -622,7 +622,7 @@ was measured in µL to units of mass
 In the appendix table, George 2003 reports the range of root respiration
 rates, converted to $15°C$ and standard units:
 
-$$[11.26, 22.52]  \frac{\mathrm{nmol CO}_2}{\mathrm{g}\ \mathrm{s}}$$
+$[11.26, 22.52]  \frac{\mathrm{nmol CO}_2}{\mathrm{g}\ \mathrm{s}}$
 
 In the original publication Allen (1969), root respiration was measured
 at $27°C$. The values can be found in [Table 3] (#Table 3) and [Figure 2] (#Figure 2). The
@@ -630,7 +630,7 @@ data include a minimum (Group 2 Brunswick, NJ plants) and a maximum
 (Group 3 Newbery, South Carolina), which I assume are the ones used by
 George 2003:
 
-$$[27.2, 56.2] \frac{\mu\mathrm{L}\ \mathrm{O}_2}{10\mathrm{mg}\ \mathrm{h}}$$
+$[27.2, 56.2] \frac{\mu\mathrm{L}\ \mathrm{O}_2}{10\mathrm{mg}\ \mathrm{h}}$
 
 
 Transformed George 2003 measurements back to the measurement temperature
@@ -639,14 +639,14 @@ temperature of $15°C$ stated in the Georgeh table legend, and
 Q$_{10} = 2.075$ from George 2003, and the measurement temperature of
 $27°C$ reported by Allen 1969:
 
-$$R_T = R_{15}[\exp(\ln(Q_{10})(T- 15))/10]$$
+$R_T = R_{15}[\exp(\ln(Q_{10})(T- 15))/10]$
 
-$$[11.26, 22.52] * exp(log(2.075)*(27 - 15)/10)$$
+$[11.26, 22.52] * exp(log(2.075)*(27 - 15)/10)$
 
 Now we have the values that we would have expected to find in the Allen
 paper, except that the units need to be converted back to the original:
 
-$$[27.03,54.07] \mathrm{nmol CO}_2\ \mathrm{g}^{-1}\mathrm{s}^{-1}$$
+$[27.03,54.07] \mathrm{nmol CO}_2\ \mathrm{g}^{-1}\mathrm{s}^{-1}$
 
 
 ####  Required constants
@@ -669,17 +669,17 @@ $$[27.03,54.07] \mathrm{nmol CO}_2\ \mathrm{g}^{-1}\mathrm{s}^{-1}$$
     unit of measurement for simplicity
 
 Now convert
-$$[27.03,54.07] \mathrm{nmol CO}_2\ \mathrm{g}^{-1}\mathrm{s}^{-1}$$ to
+$[27.03,54.07] \mathrm{nmol CO}_2\ \mathrm{g}^{-1}\mathrm{s}^{-1}$ to
 units of
 $\frac{\mu\mathrm{L}\ \textrm{O}_2}{10\mathrm{mg}\ \mathrm{root}\ \mathrm{h}}$.
 The expected result is the original values reported by Allen:
 $[27.2, 56.2] \frac{\mu\mathrm{L}\ \mathrm{O}_2}{10\mathrm{mg}\ \mathrm{h}}$
 
-$$[27.03, 54.07]\ \frac{\mathrm{nmol}\ \mathrm{CO}_2}{\mathrm{g}\ \mathrm{root}\ \mathrm{s}} \times \frac{1\ \mathrm{g}}{100\times10\mathrm{mg}} \times \frac{3600\ \mathrm{s}}{\mathrm{h}} \times \frac{\mathrm{nmol}\ \mathrm{O}_2}{\mathrm{nmol}\ \mathrm{CO}_2}\frac{3.2 \times 10^{-8}\ \mathrm{g}\ \mathrm{O}_2}{\mathrm{nmol}\ \mathrm{O}_2}\times \frac{7.69\times10^5\ \mu\mathrm{L}\ \mathrm{O}_2}{\mathrm{g}\ \mathrm{O}_2}$$
+$[27.03, 54.07]\ \frac{\mathrm{nmol}\ \mathrm{CO}_2}{\mathrm{g}\ \mathrm{root}\ \mathrm{s}} \times \frac{1\ \mathrm{g}}{100\times10\mathrm{mg}} \times \frac{3600\ \mathrm{s}}{\mathrm{h}} \times \frac{\mathrm{nmol}\ \mathrm{O}_2}{\mathrm{nmol}\ \mathrm{CO}_2}\frac{3.2 \times 10^{-8}\ \mathrm{g}\ \mathrm{O}_2}{\mathrm{nmol}\ \mathrm{O}_2}\times \frac{7.69\times10^5\ \mu\mathrm{L}\ \mathrm{O}_2}{\mathrm{g}\ \mathrm{O}_2}$
 
 The result is:
 
-$$[23.8, 47.8]  \frac{\mu\mathrm{L}\ \textrm{O}_2}{10\mathrm{mg}\ \mathrm{root}\ \mathrm{h}}$$
+$[23.8, 47.8]  \frac{\mu\mathrm{L}\ \textrm{O}_2}{10\mathrm{mg}\ \mathrm{root}\ \mathrm{h}}$
 
 These are the units reported in the Allen paper, but they appear to be
 off by the temperature conversion factor,
@@ -695,37 +695,37 @@ pressure at time of measurement would explain this error.
 
 :
 
-$$\textrm{k}\times\frac{\mu\mathrm{L}\ \textrm{O}_2}{10\mathrm{mg}\ \mathrm{root}\ \mathrm{h}} = \frac{\mu\mathrm{mol}\ \mathrm{CO}_2}{\mathrm{kg}\ \mathrm{s}}$$
+$\textrm{k}\times\frac{\mu\mathrm{L}\ \textrm{O}_2}{10\mathrm{mg}\ \mathrm{root}\ \mathrm{h}} = \frac{\mu\mathrm{mol}\ \mathrm{CO}_2}{\mathrm{kg}\ \mathrm{s}}$
 
-$$k =  \frac{\mathrm{g}\ \mathrm{O}_2}{7.69\times10^5\ \mu\mathrm{L}\ \mathrm{O}_2}\times\frac{\mu\mathrm{mol}\ \mathrm{O}_2}{3.2 \times 10^{-5}\ \mathrm{g}\ \mathrm{O}_2} \times \frac{10^5\ \times 10\mathrm{mg}}{\mathrm{kg}} \times \frac{\mathrm{h}}{3600\ \mathrm{s}}=$$
-$$= 1.13$$
+$k =  \frac{\mathrm{g}\ \mathrm{O}_2}{7.69\times10^5\ \mu\mathrm{L}\ \mathrm{O}_2}\times\frac{\mu\mathrm{mol}\ \mathrm{O}_2}{3.2 \times 10^{-5}\ \mathrm{g}\ \mathrm{O}_2} \times \frac{10^5\ \times 10\mathrm{mg}}{\mathrm{kg}} \times \frac{\mathrm{h}}{3600\ \mathrm{s}}=$
+$= 1.13$
 
 ####  Calculating $MSE$ given $F$, $df_{\text{group}}$, and $SS$
 
 
 Given:
 
-$$\label{eq:f}
-  F = MS_g/MS_e$$
+$\label{eq:f}
+  F = MS_g/MS_e$
 
 Where $g$ indicates the group, or treatment. Rearranging this equation
-gives: $$MS_e=MS_g/F$$
+gives: $MS_e=MS_g/F$
 
 Given
 
-$$MS_x = SS_x/df_x$$
+$MS_x = SS_x/df_x$
 
 Substitute $MS_e/df_e$ for $SS_e$ in the first equation
 
-$$F=\frac{SS_g/df_g}{MS_e}$$
+$F=\frac{SS_g/df_g}{MS_e}$
 
 Then solve for $MS_e$
 
-$$\label{eq:mse}
-  MS_e = \frac{SS_g}{df_g\times F}$$
+$\label{eq:mse}
+  MS_e = \frac{SS_g}{df_g\times F}$
 
-$$\label{eq:dft}
-  df_{\text{total}}=(df_a+1)\times(df_b+1)...\times(n)-1$$
+$\label{eq:dft}
+  df_{\text{total}}=(df_a+1)\times(df_b+1)...\times(n)-1$
 
 Which depends on the experimental design:
 
@@ -757,7 +757,7 @@ $13.49$.
 
 Calculate $MS_e$:
 
-$$MS_e = \frac{109.58}{0.57 \times 2} = 96.12$$
+$MS_e = \frac{109.58}{0.57 \times 2} = 96.12$
 
 
 ##  Reference Tables
@@ -865,7 +865,7 @@ Most important, there will be a strong covariance between Vcmax and stomatal_slo
 | vcmax | irradiance and temperature (leaf or air) | |
 |any leaf measurement | | canopy height |
 | root\_respiration\_rate | temperature (root or soil, | soil moisture |
-| | root\_diameter\_max | root size class (usually $<2mm$) |
+| | root\_diameter\_max | root size class (usually replace_contentlt;2mm$) |
 | any respiration | temperature | |
 | root biomass | | min. size cutoff, max. size cutoff |
 | root, soil | depth (cm) | used for max and min depths of soil, if only one value, assume min depth = 0; negative values indicate above ground |
@@ -888,7 +888,7 @@ Most important, there will be a strong covariance between Vcmax and stomatal_slo
 
 | From ($X$) | to ($Y$) | Conversion | Notes |
 |:-----------|:---------|:-----------|:------|
-| $X_2=$root production | $X_1=$root biomass & root turnover rate | $Y = X_2/X_1$& | Gill [2000] |
+| $X_2=$root production | $X_1=$root biomass & root turnover rate | $Y = X_2/X_1replace_contentamp; | Gill [2000] |
 | DD$^{\circ}$ MM'SS | XX.ZZZZ | $\textrm{XX.ZZZZ} = \textrm{XX} + \textrm{MM}/60+\textrm{SS}/60$ | to convert latitude or longitude from degrees, minutes, seconds to  decimal degrees |
 | lb | kg | $Y=X\times 2.2$ | |
 | mm/s | $\mu$ mol CO$_2$ m$^{2}$ s$^{-1}$ | $Y=X\times 0.04$ | |
