@@ -102,8 +102,8 @@ Most important, there will be a strong covariance between Vcmax and stomatal_slo
 |:---------|:--------------------|:--------------------|
 | vcmax | irradiance and temperature (leaf or air) | |
 |any leaf measurement | | canopy height |
-| root\_respiration\_rate | temperature (root or soil, | soil moisture |
-| | root\_diameter\_max | root size class (usually replace_contentlt;2mm\() |
+| root_respiration_rate | temperature (root or soil)| soil moisture |
+| | root_diameter_max | root size class (usually replace_contentlt;2mm\() |
 | any respiration | temperature | |
 | root biomass | | min. size cutoff, max. size cutoff |
 | root, soil | depth (cm) | used for max and min depths of soil, if only one value, assume min depth = 0; negative values indicate above ground |
