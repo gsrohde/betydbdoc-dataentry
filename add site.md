@@ -53,3 +53,33 @@ among independent studies.
 
 5. Do **not** enter a new site When plants (or seeds) are collected from multiple locations   and then grown in the same location, this is called 'common garden experiment'. In this case, the location of the study is included as site information. Information about the seed source can be entered as a distinct cultivar.
  
+## Site Location 
+
+If latitude and longitude coordinates are not available, it is often
+possible to determine the site location based on the site name, city,
+and other information. One way to do this would be to look up a location
+name in [Google Maps](http://maps.google.com) and then locate it on the
+embedded map. Google Maps can provide decimal degrees if the LatLng
+feature is enabled, which can be done
+[here](http://maps.google.com/maps?showlabs=1). Google Earth can be
+particularly useful in locating sites, along with their coordinates and
+elevation. Alternatively, the site website or address might be found
+through an internet search (e.g. Google).
+
+Use Table 2 to determine the number of significant digits to indicate the level
+of precision with which a study location is known.  
+
+<a id="Table 2"></Table 2>
+                 
+| Location Detail |         Degree Accuracy  |
+|:----------------|-------------------------:|
+| City            |                      0.1 |
+| Mile            |                     0.01 |
+| Acre            |                    0.001 |
+| 10 Meters       |                   0.0001 |
+ 
+<a id="Figure 3"></a> ![alt text](figures/newsite.png)
+
+**Figure 3**: [Form for entering a new site](https://www.betydb.org/sites/new)
+
+
