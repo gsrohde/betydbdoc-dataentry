@@ -3,7 +3,7 @@
 <a id="Table 9"></Table 9>
 **Table 9: Useful conversions for entering site, management, yield, and trait data**
 
-| From (\)X\() | to (\)Y\() | Conversion | Notes |
+| From (\(X\)) | to (\(Y\)) | Conversion | Notes |
 |:-----------|:---------|:-----------|:------|
 | \(X_2=\)root production | \(X_1=\)root biomass & root turnover rate | \(Y = X_2/X_1\) | Gill [2000] |
 | DD\(^{\circ}\) MM'SS | XX.ZZZZ | \(\textrm{XX.ZZZZ} = \textrm{XX} + \textrm{MM}/60+\textrm{SS}/60\) | to convert latitude or longitude from degrees, minutes, seconds to  decimal degrees |
