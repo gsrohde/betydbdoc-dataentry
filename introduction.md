@@ -19,10 +19,12 @@ Papers can be marked as **read** or **unread**, and may be **starred.**
 * Groups
 * Tagging
 
-## <a id="Section_2.1"></a>  Creating a New Group 
+## <a id="Section_2.1"></a>  Creating a New Group in Mendeley
+
 Each project has two groups: "projectname" and "projectname_out" for the papers with data to be entered and for the papers with data that has been entered, respectively. Papers in the _out group may contain data for future entry (for example, traits that are not listed in [Table 6](#Table 6)). 
 
 Each project manager may have one or more projects and each project should have one group. Group names should refer to plant species, plant functional types, or another project specific name. A list of current groups can be found in [Table 1](#Table 1). Please make sure that, at a minimum, Mike Dietze and David LeBauer are invited to join each project folder. 
+
    1. Open Mendeley desktop
    2. Click `Edit` → `New Group` or `Ctrl+Shift+M`
    3. Create group name following instructions above
@@ -44,7 +46,7 @@ entering data from, please plan to spend between 15 min and 1 hour per
 week maintaining it - enough to keep up with the work that the
 undergraduates are doing.
 
-####  Adding a reference to Mendeley
+###  Adding a reference to Mendeley
 
 -   If the DOI number is available (most articles since 2000)
     1.  Select project folder
@@ -61,7 +63,7 @@ undergraduates are doing.
         from, for, to, etc...), and the conjunctions (for, and, nor,
         but, or, yet, so) with less than three letters.
 
-####  Annotating a Reference in Mendeley
+###  Annotating a Reference in Mendeley
 
 Each week, please identify and prepare papers that you would like to be
 entered next by completing the following steps:  
@@ -100,7 +102,7 @@ entered next by completing the following steps:
 * Other information entered into the database, e.g. experimental
     details
 
-####  Finding a citation in Mendeley
+###  Finding a citation in Mendeley
 
 To find a citation in Mendeley, go to the project folder. Group folders
 and personnel are listed in [Table 1](#Table 1). By default, data entry technicians should
@@ -109,7 +111,7 @@ the order that they were added to the list. Information and data to be
 collected from a paper can be found under the 'Notes' tab and in
 highlighted sections of the paper.
 
-<a id="Section 3"></a>   
+<a id="Section 3"></a> 
 ## Google Spreadsheets: Recording data transformations
 Google Spreadsheets are used to keep a record of any data that is not
 entered directly from the original publication.
@@ -128,6 +130,7 @@ information such as equations may be lost when uploading or
 copy-pasting.
 
 ## Redmine: Reporting errors, suggesting features
+
 #### Reporting errors in Redmine 
 1. Go to [Redmine: BetyDB] (https://ebi-forecast.igb.illinois.edu/redmine/projects/bety-db/) project page.
 2. Click the `New Issue` tab in the center of the ribbon. 
@@ -490,7 +493,7 @@ Contact [David LeBauer](mailto:dlebauer@illinois.edu) or [Mike
 Dietze](mailto:mdietze@illinois.edu) for more information about using
 this method of data upload.
 
-##7. BETYdb: QA/QC with the Web Interface
+## BETYdb: QA/QC with the Web Interface
 
 Quality assurance and quality control (QA/QC) is a critical step that is
 used to ensure the validity of data in the database and of the analyses
