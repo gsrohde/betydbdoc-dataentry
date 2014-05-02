@@ -13,6 +13,8 @@ For many transformations, particularly when automated, please use the udunits2 s
 
 NB: Many of these conversions have been automated within [PEcAn](https://github.com/PecanProject/pecan).
 
+### Root Respiration
+
 Convert from root respiration data reported in George et al (where O\(_2\)
 was measured in µL to units of mass
 
@@ -87,10 +89,7 @@ to be acceptable, but not exact. Since the ratio of observed:expected
 values are different, it is not likely that Q\(_{10}\) or the atmospheric
 pressure at time of measurement would explain this error.
 
-####  Convert to units in BETYdb, find \(\textrm{k}\)
-
-
-:
+####  Convert to units in BETYdb, find \(\textrm{k}\):
 
 \(\textrm{k}\times\frac{\mu\mathrm{L}\ \textrm{O}_2}{10\mathrm{mg}\ \mathrm{root}\ \mathrm{h}} = \frac{\mu\mathrm{mol}\ \mathrm{CO}_2}{\mathrm{kg}\ \mathrm{s}}\)
 
