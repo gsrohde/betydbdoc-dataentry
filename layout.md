@@ -1,6 +1,7 @@
 abstract.md
 introduction.md
 Data Entry.md
+QAQC.md
 Extracting Data From Figures.md
 stat conversions.md
 unit conversions.md
