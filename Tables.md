@@ -116,17 +116,16 @@ Most important, there will be a strong covariance between Vcmax and stomatal_slo
 
 | From | To | Conversion | Rcode | Notes |
 |:-----|:---|:-----------|:------|:------|
-| P | SE | \)SE = \frac{\bar{X}_1-\bar{X}_2}{t_{1-P/2,2n-2}\sqrt{2/n}}\( | (x1-x2)/(qt(1-P/2,2*n-2)*sqrt(2/n)) | \)\bar{X}_{1,2}\( are two means being compared. |
-| LSD | SE | \)SE = \frac{LSD}{t_{1-\alpha/2,n}*\sqrt{2b}}\( | LSD/(qt(1-P/2,n)*sqrt(2*b)) | where \)b\( is the number of blocks, \)n\( is the number of replicates, and  \)n=b\( in a Randomized Complete Block Design |
-| MSD | SE | \)SE = \frac{MSD*n}{t_{1-\alpha, 2n-2}*\sqrt{2}}\( | msd*n/(qt(1-P/2,2*n-2)*sqrt(2)) | |
-
+| P | SE | SE\( = \frac{\bar{X}_1-\bar{X}_2}{t_{1-P/2,2n-2}\sqrt{2/n}}\) | (x1-x2)/(qt(1-P/2,2*n-2)*sqrt(2/n)) | \(\bar{X}_{1,2}\) are two means being compared. |
+| LSD | SE | \(SE = \frac{LSD}{t_{1-\alpha/2,n}*\sqrt{2b}}\) | LSD/(qt(1-P/2,n)*sqrt(2*b)) | where \(b\) is the number of blocks, \(n\) is the number of replicates, and \(n=b\) in a Randomized Complete Block Design |
+| MSD | SE | \(SE = \frac{MSD*n}{t_{1-\alpha, 2n-2}*\sqrt{2}}\) | msd*n/(qt(1-P/2,2*n-2)*sqrt(2)) | |
 
 <a id="Table 9"></Table 9>
 **Table 9: Useful conversions for entering site, management, yield, and trait data**
 
 | From (\)X\() | to (\)Y\() | Conversion | Notes |
 |:-----------|:---------|:-----------|:------|
-| \)X_2=\(root production | \)X_1=\(root biomass & root turnover rate | \)Y = X_2/X_1replace_contentamp; | Gill [2000] |
+| \(X_2=\)root production | \(X_1=\)root biomass & root turnover rate | \(Y = X_2/X_1\) | Gill [2000] |
 | DD\(^{\circ}\) MM'SS | XX.ZZZZ | \(\textrm{XX.ZZZZ} = \textrm{XX} + \textrm{MM}/60+\textrm{SS}/60\) | to convert latitude or longitude from degrees, minutes, seconds to  decimal degrees |
 | lb | kg | \(Y=X\times 2.2\) | |
 | mm/s | \(\mu\) mol CO\(_2\) m\(^{2}\) s\(^{-1}\) | \(Y=X\times 0.04\) | |
