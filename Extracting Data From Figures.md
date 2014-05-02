@@ -1,6 +1,8 @@
 
 ##  Extracting information from tables and graphs 
 
+See [related question on Stats.stackexchange](http://stats.stackexchange.com/a/14440/1381)
+
 1.  Identify the data that is associated with each treatment
 
     *note:* If the experiment has many factors, the paper may not report the mean and statistics for each treatment. Often, the reported data will reflect the results of more than one treatment (for example, if there was no effect of the treatment on the quantity of interest). In some cases it will be possible to obtain the values for each treatment, e.g. if there are _n-1_ values and _n_ treatments. If this is not the case, the treatment names and definitions should be changed to indicate the data reflect the results of more than one experimental treatment. 
