@@ -1,7 +1,7 @@
 
-## <a id="Section_2.1"></a>  Preparing Publications for Data Entry
+# <a id="Section_2.1"></a>  Preparing Publications for Data Entry
 
-### Mendeley
+## Mendeley
 
 Mendeley provides a central location for the collection, annotation, and tracking of the journal articles that we use. Features of Mendeley that are useful to us include: 
 
@@ -40,7 +40,7 @@ entering data from, please plan to spend between 15 min and 1 hour per
 week maintaining it - enough to keep up with the work that the
 undergraduates are doing.
 
-###  Adding a reference to Mendeley
+###  Adding a reference
 
 -   If the DOI number is available (most articles since 2000)
     1.  Select project folder
@@ -57,7 +57,7 @@ undergraduates are doing.
         from, for, to, etc...), and the conjunctions (for, and, nor,
         but, or, yet, so) with less than three letters.
 
-###  Annotating a Reference in Mendeley
+###  Annotating a Reference
 
 Each week, please identify and prepare papers that you would like to be
 entered next by completing the following steps:  
@@ -88,7 +88,7 @@ entered next by completing the following steps:
     -   Esoteric information that other scientists or technicians might not catch and that is not otherwise recorded in the database
     -   Any data that may be useful at a later date but that can be skipped for now.
 
-####  **Comment or Highlight** the following information
+**Comment or Highlight** the following information
 
 * Sample size
 * Covariates (see [Table 7](#Table 7))
@@ -107,10 +107,10 @@ collected from a paper can be found under the 'Notes' tab and in
 highlighted sections of the paper.
 
 <a id="Section 3"></a> 
-## Google Spreadsheets: Recording extracted data and transformations
+## Recording extracted data and transformations
 
 Google Spreadsheets are used to keep a record of any data that is not
-entered directly from the original publication.
+entered directly from the original publication. Please share all spreadsheets with the user betydb@gmail.com in addition to any collaborators.
 
 * Any raw data that is not directly entered into the database but that
     is used to derive data or stats using equations in [Table 1](#Table 1) and [Table 5](#Table 5).
@@ -118,8 +118,8 @@ entered directly from the original publication.
 * Any calculations that were made. These calculations should be
     included in the cells.
 
-Each project has a Google document spreadsheet with the title
-’’project\_data’’. In this spreadsheet, each reference should have a
+Each project has a Google document spreadsheet with the title "project\_data". 
+In this spreadsheet, each reference should have a
 separate worksheet labeled with the citation key (`authorYYYabc`
 format). Do not enter data into excel first as this is prone to errors and
 information such as equations may be lost when uploading or
