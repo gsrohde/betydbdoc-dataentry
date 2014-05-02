@@ -1,5 +1,6 @@
 abstract.md
 introduction.md
+Finding Published Data.md
 Data Entry.md
 QAQC.md
 Extracting Data From Figures.md
