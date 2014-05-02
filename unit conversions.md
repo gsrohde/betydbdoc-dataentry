@@ -3,6 +3,20 @@
 <a id="Table 9"></Table 9>
 **Table 9: Useful conversions for entering site, management, yield, and trait data**
 
+For many transformations, particularly when automated, please use the udunits2 software where possible. For example, in R, you can use
+
+```
+library(udunits2)
+## transform meters to mm
+ud.convert(10, "m", "mm")
+## equivalently, via the udunits synonym database
+ud.convert(10, "meters", "millimeters")
+## it can also handle more complex units
+ud.convert(10, "m/s", "mm/d")
+```
+
+
+
 | From (\(X\)) | to (\(Y\)) | Conversion | Notes |
 |:-----------|:---------|:-----------|:------|
 | \(X_2=\)root production | \(X_1=\)root biomass & root turnover rate | \(Y = X_2/X_1\) | Gill [2000] |
