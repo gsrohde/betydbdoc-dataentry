@@ -1,6 +1,7 @@
 abstract.md
 introduction.md
 Finding Published Data.md
+Add Citation.md
 Data Entry.md
 bulk upload.md
 QAQC.md
