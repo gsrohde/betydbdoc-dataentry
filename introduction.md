@@ -616,130 +616,130 @@ to be elevated to “manager”.
 ##  Converting Units and Adjustment to Temperature
 
 
-Convert from root respiration data reported in George et al (where O_2
+Convert from root respiration data reported in George et al (where O\(_2\)
 was measured in µL to units of mass
 
 In the appendix table, George 2003 reports the range of root respiration
-rates, converted to 15°C and standard units:
+rates, converted to \(15°C\) and standard units:
 
-[11.26, 22.52]  \frac{\mathrm{nmol CO}_2}{\mathrm{g}\ \mathrm{s}}
+\([11.26, 22.52]  \frac{\mathrm{nmol CO}_2}{\mathrm{g}\ \mathrm{s}}\)
 
 In the original publication Allen (1969), root respiration was measured
-at 27°C. The values can be found in [Table 3] (#Table 3) and [Figure 2] (#Figure 2). The
+at \(27°C\). The values can be found in [Table 3] (#Table 3) and [Figure 2] (#Figure 2). The
 data include a minimum (Group 2 Brunswick, NJ plants) and a maximum
 (Group 3 Newbery, South Carolina), which I assume are the ones used by
 George 2003:
 
-[27.2, 56.2] \frac{\mu\mathrm{L}\ \mathrm{O}_2}{10\mathrm{mg}\ \mathrm{h}}
+\([27.2, 56.2] \frac{\mu\mathrm{L}\ \mathrm{O}_2}{10\mathrm{mg}\ \mathrm{h}}\)
 
 
 Transformed George 2003 measurements back to the measurement temperature
 using a rearrangement of equation 1 from George, the standardized
-temperature of 15°C stated in the Georgeh table legend, and
-Q_{10} = 2.075 from George 2003, and the measurement temperature of
-27°C reported by Allen 1969:
+temperature of \(15°C\) stated in the Georgeh table legend, and
+Q\(_{10} = 2.075\) from George 2003, and the measurement temperature of
+\(27°C\) reported by Allen 1969:
 
-R_T = R_{15}[\exp(\ln(Q_{10})(T- 15))/10]
+\(R_T = R_{15}[\exp(\ln(Q_{10})(T- 15))/10]\)
 
-[11.26, 22.52] * exp(log(2.075)*(27 - 15)/10)
+\([11.26, 22.52] * exp(log(2.075)*(27 - 15)/10)\)
 
 Now we have the values that we would have expected to find in the Allen
 paper, except that the units need to be converted back to the original:
 
-[27.03,54.07] \mathrm{nmol CO}_2\ \mathrm{g}^{-1}\mathrm{s}^{-1}
+\([27.03,54.07] \mathrm{nmol CO}_2\ \mathrm{g}^{-1}\mathrm{s}^{-1}\)
 
 
 ####  Required constants
 
 
--   1\ \mathrm{mol}\ \mathrm{O}_2 = 1\ \mathrm{mol}\ \mathrm{CO}_2
+-   \(1\ \mathrm{mol}\ \mathrm{O}_2 = 1\ \mathrm{mol}\ \mathrm{CO}_2\)
     since respiration is
-    \mathrm{CH}_2\mathrm{O} + \mathrm{O}_2 \to \mathrm{CO}_2 + \mathrm{H}_2\mathrm{O}
+    \(\mathrm{CH}_2\mathrm{O} + \mathrm{O}_2 \to \mathrm{CO}_2 + \mathrm{H}_2\mathrm{O}\)
 
--   Density of \mathrm{O}_2 at 27^\circ C:
-    \frac{7.69 \times 10^5\ \mathrm{ml}\ \mathrm{O}_2}{\mathrm{g}\ \mathrm{O}_2}
+-   Density of \(\mathrm{O}_2\) at \(27^\circ C\):
+    \(\frac{7.69 \times 10^5\ \mathrm{ml}\ \mathrm{O}_2}{\mathrm{g}\ \mathrm{O}_2}\)
     first assume that Allen converted to sea level pressure (101 kPa),
     although maybe they were measured at elevation (Allen may have
     worked at \~ 900 kPa near Brevard, NC)
 
--   Molar mass of \mathrm{O}_2:
-    \frac{32\mathrm{g}\ \mathrm{O}_2}{\mathrm{mol}}
+-   Molar mass of \(\mathrm{O}_2\):
+    \(\frac{32\mathrm{g}\ \mathrm{O}_2}{\mathrm{mol}}\)
 
 -   Treat 10mg, which is in the unit of root mass used by Allen, as a
     unit of measurement for simplicity
 
 Now convert
-[27.03,54.07] \mathrm{nmol CO}_2\ \mathrm{g}^{-1}\mathrm{s}^{-1} to
+\([27.03,54.07] \mathrm{nmol CO}_2\ \mathrm{g}^{-1}\mathrm{s}^{-1}\) to
 units of
-\frac{\mu\mathrm{L}\ \textrm{O}_2}{10\mathrm{mg}\ \mathrm{root}\ \mathrm{h}}.
+\(\frac{\mu\mathrm{L}\ \textrm{O}_2}{10\mathrm{mg}\ \mathrm{root}\ \mathrm{h}}\).
 The expected result is the original values reported by Allen:
-[27.2, 56.2] \frac{\mu\mathrm{L}\ \mathrm{O}_2}{10\mathrm{mg}\ \mathrm{h}}
+\([27.2, 56.2] \frac{\mu\mathrm{L}\ \mathrm{O}_2}{10\mathrm{mg}\ \mathrm{h}}\)
 
-[27.03, 54.07]\ \frac{\mathrm{nmol}\ \mathrm{CO}_2}{\mathrm{g}\ \mathrm{root}\ \mathrm{s}} \times \frac{1\ \mathrm{g}}{100\times10\mathrm{mg}} \times \frac{3600\ \mathrm{s}}{\mathrm{h}} \times \frac{\mathrm{nmol}\ \mathrm{O}_2}{\mathrm{nmol}\ \mathrm{CO}_2}\frac{3.2 \times 10^{-8}\ \mathrm{g}\ \mathrm{O}_2}{\mathrm{nmol}\ \mathrm{O}_2}\times \frac{7.69\times10^5\ \mu\mathrm{L}\ \mathrm{O}_2}{\mathrm{g}\ \mathrm{O}_2}
+\([27.03, 54.07]\ \frac{\mathrm{nmol}\ \mathrm{CO}_2}{\mathrm{g}\ \mathrm{root}\ \mathrm{s}} \times \frac{1\ \mathrm{g}}{100\times10\mathrm{mg}} \times \frac{3600\ \mathrm{s}}{\mathrm{h}} \times \frac{\mathrm{nmol}\ \mathrm{O}_2}{\mathrm{nmol}\ \mathrm{CO}_2}\frac{3.2 \times 10^{-8}\ \mathrm{g}\ \mathrm{O}_2}{\mathrm{nmol}\ \mathrm{O}_2}\times \frac{7.69\times10^5\ \mu\mathrm{L}\ \mathrm{O}_2}{\mathrm{g}\ \mathrm{O}_2}\)
 
 The result is:
 
-[23.8, 47.8]  \frac{\mu\mathrm{L}\ \textrm{O}_2}{10\mathrm{mg}\ \mathrm{root}\ \mathrm{h}}
+\([23.8, 47.8]  \frac{\mu\mathrm{L}\ \textrm{O}_2}{10\mathrm{mg}\ \mathrm{root}\ \mathrm{h}}\)
 
 These are the units reported in the Allen paper, but they appear to be
 off by the temperature conversion factor,
-exp(log(2.075)*(27 - 15)/10)=2.4, e.g.
-[11.9, 23.9]\times 2.4= [28.6,57.4], values which are only 5 and 2
-percent larger than the original values of [27.2, 56.2], respectively
+\(exp(log(2.075)*(27 - 15)/10)=2.4\), e.g.
+\([11.9, 23.9]\times 2.4= [28.6,57.4]\), values which are only 5 and 2
+percent larger than the original values of \([27.2, 56.2]\), respectively
 to be acceptable, but not exact. Since the ratio of observed:expected
-values are different, it is not likely that Q_{10} or the atmospheric
+values are different, it is not likely that Q\(_{10}\) or the atmospheric
 pressure at time of measurement would explain this error.
 
-####  Convert to units in BETYdb, find \textrm{k}
+####  Convert to units in BETYdb, find \(\textrm{k}\)
 
 
 :
 
-\textrm{k}\times\frac{\mu\mathrm{L}\ \textrm{O}_2}{10\mathrm{mg}\ \mathrm{root}\ \mathrm{h}} = \frac{\mu\mathrm{mol}\ \mathrm{CO}_2}{\mathrm{kg}\ \mathrm{s}}
+\(\textrm{k}\times\frac{\mu\mathrm{L}\ \textrm{O}_2}{10\mathrm{mg}\ \mathrm{root}\ \mathrm{h}} = \frac{\mu\mathrm{mol}\ \mathrm{CO}_2}{\mathrm{kg}\ \mathrm{s}}\)
 
-k =  \frac{\mathrm{g}\ \mathrm{O}_2}{7.69\times10^5\ \mu\mathrm{L}\ \mathrm{O}_2}\times\frac{\mu\mathrm{mol}\ \mathrm{O}_2}{3.2 \times 10^{-5}\ \mathrm{g}\ \mathrm{O}_2} \times \frac{10^5\ \times 10\mathrm{mg}}{\mathrm{kg}} \times \frac{\mathrm{h}}{3600\ \mathrm{s}}=
-= 1.13
+\(k =  \frac{\mathrm{g}\ \mathrm{O}_2}{7.69\times10^5\ \mu\mathrm{L}\ \mathrm{O}_2}\times\frac{\mu\mathrm{mol}\ \mathrm{O}_2}{3.2 \times 10^{-5}\ \mathrm{g}\ \mathrm{O}_2} \times \frac{10^5\ \times 10\mathrm{mg}}{\mathrm{kg}} \times \frac{\mathrm{h}}{3600\ \mathrm{s}}=\)
+\(= 1.13\)
 
-####  Calculating MSE given F, df_{\text{group}}, and SS
+####  Calculating \(MSE\) given \(F\), \(df_{\text{group}}\), and \(SS\)
 
 
 Given:
 
-\label{eq:f}
-  F = MS_g/MS_e
+\(\label{eq:f}
+  F = MS_g/MS_e\)
 
-Where g indicates the group, or treatment. Rearranging this equation
-gives: MS_e=MS_g/F
+Where \(g\) indicates the group, or treatment. Rearranging this equation
+gives: \(MS_e=MS_g/F\)
 
 Given
 
-MS_x = SS_x/df_x
+\(MS_x = SS_x/df_x\)
 
-Substitute MS_e/df_e for SS_e in the first equation
+Substitute \(MS_e/df_e\) for \(SS_e\) in the first equation
 
-F=\frac{SS_g/df_g}{MS_e}
+\(F=\frac{SS_g/df_g}{MS_e}\)
 
-Then solve for MS_e
+Then solve for \(MS_e\)
 
-\label{eq:mse}
-  MS_e = \frac{SS_g}{df_g\times F}
+\(\label{eq:mse}
+  MS_e = \frac{SS_g}{df_g\times F}\)
 
-\label{eq:dft}
-  df_{\text{total}}=(df_a+1)\times(df_b+1)...\times(n)-1
+\(\label{eq:dft}
+  df_{\text{total}}=(df_a+1)\times(df_b+1)...\times(n)-1\)
 
 Which depends on the experimental design:
 
-For factors a, b... (usually 1 or 2, sometimes 3) where n is the
+For factors a, b... (usually 1 or 2, sometimes 3) where \(n\) is the
 number of replicates within each treatment combination.
 
--   One-way anova df_{\text{total}}=an-1; where a is the number of
+-   One-way anova \(df_{\text{total}}=an-1\); where \(a\) is the number of
     treatments
 
--   Two-way anova without replication df_{\text{total}}=(a+1)(b+1)-1
+-   Two-way anova without replication \(df_{\text{total}}=(a+1)(b+1)-1\)
     also known as ’’randomized complete block design’’ (RCBD)
 
--   Two-way anova with n replicates
-    df_{\text{total}}=(a+1)(b+1)(n)-1 aka ’’RCBD with replication’’
+-   Two-way anova with \(n\) replicates
+    \(df_{\text{total}}=(a+1)(b+1)(n)-1\) aka ’’RCBD with replication’’
 
 #### Example
 
@@ -747,17 +747,17 @@ An example application of this is in Starr et al. [2008] table 3 [Figure 11] (Fi
 The results are from one (two?) factor ANOVA with repeated measures,
 with treatment and week as the factors and no replication.
 
-We will calculate MSE from the SS_{\text{treatment}}
-df_{\text{treatment}}, and F-value given in the table; these are
-109.58, 2, and 0.570, respectively; df_{\text{weeks}} is given
-as 10.
+We will calculate MSE from the \(SS_{\text{treatment}}\)
+\(df_{\text{treatment}}\), and \(F\)-value given in the table; these are
+\(109.58\), \(2\), and \(0.570\), respectively; \(df_{\text{weeks}}\) is given
+as \(10\).
 
-For the 1997 *Eriphorium vaginatum*, the mean A_{max} in table 4 is
-13.49.
+For the 1997 *Eriphorium vaginatum*, the mean \(A_{max}\) in table 4 is
+\(13.49\).
 
-Calculate MS_e:
+Calculate \(MS_e\):
 
-MS_e = \frac{109.58}{0.57 \times 2} = 96.12
+\(MS_e = \frac{109.58}{0.57 \times 2} = 96.12\)
 
 
 ##  Reference Tables
@@ -771,17 +771,17 @@ This is a list of  managements to enter, with the most common management types i
 |:----------------|:------|:-----------|:------|
 | Burned | aboveground biomass burned |
 | CO2 fumigation | ppm | | |
-| Fertilization_X      | kg x ha^{-1} | fertilization rate, element X | | 
-| Fungicide | kg x ha^{-1} |  | add type of fungicide to notes |
+| Fertilization_X      | kg x ha\(^{-1}\) | fertilization rate, element X | | 
+| Fungicide | kg x ha\(^{-1}\) |  | add type of fungicide to notes |
 | Grazed | years | livestock grazing | pre-experiment land use |
 | Harvest | | | no units, just date, equivalent to coppice, aboveground biomass removal |
-| Herbicide | kg x ha^{-1} |   | add type of herbicide to notes: glyphosate, atrazine, many others |
+| Herbicide | kg x ha\(^{-1}\) |   | add type of herbicide to notes: glyphosate, atrazine, many others |
 | Irrigation | cm | | convert volume \ area to depth as required |
-| Light | W m^{-2} | | |
+| Light | W m\(^{-2}\) | | |
 | O3 fumigation | ppm | | |
-| Pesticide | kg x ha^{-1} |  | add type of pesticide to notes |
-| Planting | plants m^{-2} |    | Convert row spacing to planting density if possible |
-| Seeding  | kg seeds x ha^{-1} |   |   |
+| Pesticide | kg x ha\(^{-1}\) |  | add type of pesticide to notes |
+| Planting | plants m\(^{-2}\) |    | Convert row spacing to planting density if possible |
+| Seeding  | kg seeds x ha\(^{-1}\) |   |   |
 | Tillage | | | no units, maybe depth; *tillage* is equivalent to *cultivate* | 
 
 
@@ -809,15 +809,15 @@ Numbering convention for the DateLOC (Date level of confidence) field, used in m
 <a id="Table 5"></Table 5>
 **Table 5: List of statistical summaries**
 
-List of the statistics that can be entered into the statname field of traits and yields tables. Please see David (or Mike) if you have questions about statistics that do not appear in this list. If you have P, or LSD in a study with n\neq b (e.g. not a RCBD, see Table 8), please convert these values prior to entering the data, and add a note that stat was transformed to the table. Note: These are listed in order of preference, e.g., if SD, SE, or MSE are provided then use these values.
+List of the statistics that can be entered into the statname field of traits and yields tables. Please see David (or Mike) if you have questions about statistics that do not appear in this list. If you have P, or LSD in a study with \(n\neq b\) (e.g. not a RCBD, see Table 8), please convert these values prior to entering the data, and add a note that stat was transformed to the table. Note: These are listed in order of preference, e.g., if SD, SE, or MSE are provided then use these values.
 
 | Statname | Name | Definition | Notes |
 |:----------|:-----|:-----------|:------|
-| SD | Standard Deviation | \sqrt{\frac{1}{N} \sum{(x_i - \bar{x})^2}} | \bar{x} is the mean |
-| SE | Standard Error | \frac{s}{\sqrt{n}}&  | |
-| MSE | Mean Squared Error | | | like SD, but with multiple treatments; in R: \frac{mean(aov(y~x)residuals{^2}/{aov(y~x)df} |
-| 95\%CI | 95% Confidence Interval| t_{1-^{\alpha}/_2,n}*s | measure the 95% CI from the mean, this is actually ^1/_2 of the CI |
-| LSD | Least Significant Difference | t_{1-\frac{\alpha}{2},n}\sqrt{2\text{MSE}/b} | b is the number of blocks (Rosenberg 2004) |
+| SD | Standard Deviation | \(\sqrt{\frac{1}{N} \sum{(x_i - \bar{x})^2}}\) | \(\bar{x}\) is the mean |
+| SE | Standard Error | \(\frac{s}{\sqrt{n}}\)&  | |
+| MSE | Mean Squared Error | | | like SD, but with multiple treatments; in R: \(\frac{mean(aov(y~x)\)residuals{^2}\(/{aov(y~x)df}\) |
+| 95\%CI | 95% Confidence Interval| \(t_{1-^{\alpha}/_2,n}*s\) | measure the 95% CI from the mean, this is actually \(^1/_2\) of the CI |
+| LSD | Least Significant Difference | \(t_{1-\frac{\alpha}{2},n}\sqrt{2\text{MSE}/b}\) | \(b\) is the number of blocks (Rosenberg 2004) |
 | MSD | Minimum Significant Difference |  |  |
 
 <a id="Table 6"></Table 6>
@@ -825,31 +825,31 @@ List of the statistics that can be entered into the statname field of traits and
 
 | Variable | Units | Median (90%CI) or Range | Definition |
 |:---------|:------|:------------------------|:-----------|
-| Vcmax | \mu mol CO_2 m^{2} s^{-1} | 44 (12, 125) | maximum rubisco carboxylation capacity |
-| SLA | m^2 kg^{-1} | 15(4,27) | Specific Leaf Area area of leaf per unit mass of leaf |
-| LMA | kg m^{-2} | 0.09 (0.03, 0.33) | Leaf Mass Area (LMA = SLM = 1/SLA) mass of leaf per unit area of leaf |
-| leafN | % | 2.2(0.8, 17) | leaf percent nitrogen |
-| c2n leaf | leaf C:N ratio | 39(21,79) | use only if leafN not provided |
-| leaf turnover rate | 1/year | 0.28(0.03,1.0)  | |
-| Jmax | \mu mol photons m^{-2} s^{-1} | 121(30, 262) | maximum rate of electron transport |
-| stomatal slope | | 9(1, 20) | |
-| GS | | | stomatal conductance (= gs_{\textrm{max}} |
+| Vcmax | \(\mu\) mol CO\(_2\) m\(^{2}\) s\(^{-1}\) | \(44 (12, 125)\) | maximum rubisco carboxylation capacity |
+| SLA | m\(^2\) kg\(^{-1}\) | \(15(4,27)\) | Specific Leaf Area area of leaf per unit mass of leaf |
+| LMA | kg m\(^{-2}\) | \(0.09 (0.03, 0.33)\) | Leaf Mass Area (LMA = SLM = 1/SLA) mass of leaf per unit area of leaf |
+| leafN | % | \(2.2(0.8, 17)\) | leaf percent nitrogen |
+| c2n leaf | leaf C:N ratio | \(39(21,79)\) | use only if leafN not provided |
+| leaf turnover rate | 1/year | \(0.28(0.03,1.0) \) | |
+| Jmax | \(\mu\) mol photons m\(^{-2}\) s\(^{-1}\) | \(121(30, 262)\) | maximum rate of electron transport |
+| stomatal slope | | \(9(1, 20)\) | |
+| GS | | | stomatal conductance (= gs\(_{\textrm{max}}\) |
 | q* | | 0.2--5 | ratio of fine root to leaf biomass |
 | **grasses* | ratio of root:leaf = below:above ground biomass | | |
-| aboveground biomass | g m^{-2} *or* g plant^{-1} | | |
-| root biomass | g m^{-2} *or* g plant^{-1} | | |
+| aboveground biomass | g m\(^{-2}\) *or* g plant\(^{-1}\) | | |
+| root biomass | g m\(^{-2}\) *or* g plant\(^{-1}\) | | |
 | **trees* | ratio of fine root:leaf biomass | | |
-| leaf biomass | g m^{-2} *or* g plant^{-1} | | |
-| fine root biomass (<2mm) | g m^{-2} *or* g plant^{-1} | | |
-| root turnover rate | 1/year | 0.1--10 | rate of fine root loss (temperature dependent) year^{-1} |
+| leaf biomass | g m\(^{-2}\) *or* g plant\(^{-1}\) | | |
+| fine root biomass (<2mm) | g m\(^{-2}\) *or* g plant\(^{-1}\) | | |
+| root turnover rate | 1/year | 0.1--10 | rate of fine root loss (temperature dependent) year\(^{-1}\) |
 | leaf width | mm | 22(5,102) | |
 | growth respiration factor | % | 0--1 | proportion of daily carbon gain lost to growth respiration |
-| R_{\textrm{dark}} | | \mu mol CO_2 m^{-2} s^{-1} | dark respiration |
+| R\(_{\textrm{dark}}\) | | \(\mu\) mol CO\(_2\) m\(^{-2}\) s\(^{-1}\) | dark respiration |
 | quantum efficiency | % | 0--1 | efficiency of light conversion to carbon fixation, see Farqhuar model |
 | dark respiration factor | % | 0--1 | converts Vm to leaf respiration |
 | seedling mortality | % | 0--1 | proportion of seedlings that die | 
 | r fraction | % |0--1 | fraction of storage to seed reproduction |
-| root respiration rate* | CO_2 kg^{-1} fine roots s^{-1} | 1--100 | rate of fine root respiration at reference soil temperature |
+| root respiration rate* | CO\(_2\) kg\(^{-1}\) fine roots s\(^{-1}\) | 1--100 | rate of fine root respiration at reference soil temperature |
 | f labile | % | 0--1 | fraction of litter that goes into the labile carbon pool
 | water conductance | | |
 
@@ -865,50 +865,50 @@ Most important, there will be a strong covariance between Vcmax and stomatal_slo
 | vcmax | irradiance and temperature (leaf or air) | |
 |any leaf measurement | | canopy height |
 | root\_respiration\_rate | temperature (root or soil, | soil moisture |
-| | root\_diameter\_max | root size class (usually replace_contentlt;2mm) |
+| | root\_diameter\_max | root size class (usually replace_contentlt;2mm\() |
 | any respiration | temperature | |
 | root biomass | | min. size cutoff, max. size cutoff |
 | root, soil | depth (cm) | used for max and min depths of soil, if only one value, assume min depth = 0; negative values indicate above ground |
-| gs (stomatal conductance) | A_{max} | see notes in caption |
+| gs (stomatal conductance) | A\)_{max}\( | see notes in caption |
 | stomatal\_slope (m) | humidity, temperature | specific humidity, assume leaf T =  air T |  
  
 
 <a id="Table 8"></Table 8>
-**Table 8: How to convert statistics from P, LSD, or MSD to SE**
+**Table 8: How to convert statistics from \)P\(, \)LSD\(, or \)MSD\( to \)SE\(**
 
 | From | To | Conversion | Rcode | Notes |
 |:-----|:---|:-----------|:------|:------|
-| P | SE | SE = \frac{\bar{X}_1-\bar{X}_2}{t_{1-P/2,2n-2}\sqrt{2/n}} | (x1-x2)/(qt(1-P/2,2*n-2)*sqrt(2/n)) | \bar{X}_{1,2} are two means being compared. |
-| LSD | SE | SE = \frac{LSD}{t_{1-\alpha/2,n}*\sqrt{2b}} | LSD/(qt(1-P/2,n)*sqrt(2*b)) | where b is the number of blocks, n is the number of replicates, and  n=b in a Randomized Complete Block Design |
-| MSD | SE | SE = \frac{MSD*n}{t_{1-\alpha, 2n-2}*\sqrt{2}} | msd*n/(qt(1-P/2,2*n-2)*sqrt(2)) | |
+| P | SE | \)SE = \frac{\bar{X}_1-\bar{X}_2}{t_{1-P/2,2n-2}\sqrt{2/n}}\( | (x1-x2)/(qt(1-P/2,2*n-2)*sqrt(2/n)) | \)\bar{X}_{1,2}\( are two means being compared. |
+| LSD | SE | \)SE = \frac{LSD}{t_{1-\alpha/2,n}*\sqrt{2b}}\( | LSD/(qt(1-P/2,n)*sqrt(2*b)) | where \)b\( is the number of blocks, \)n\( is the number of replicates, and  \)n=b\( in a Randomized Complete Block Design |
+| MSD | SE | \)SE = \frac{MSD*n}{t_{1-\alpha, 2n-2}*\sqrt{2}}\( | msd*n/(qt(1-P/2,2*n-2)*sqrt(2)) | |
 
 
 <a id="Table 9"></Table 9>
 **Table 9: Useful conversions for entering site, management, yield, and trait data**
 
-| From (X) | to (Y) | Conversion | Notes |
+| From (\)X\() | to (\)Y\() | Conversion | Notes |
 |:-----------|:---------|:-----------|:------|
-| X_2=root production | X_1=root biomass & root turnover rate | Y = X_2/X_1replace_contentamp; | Gill [2000] |
-| DD^{\circ} MM'SS | XX.ZZZZ | \textrm{XX.ZZZZ} = \textrm{XX} + \textrm{MM}/60+\textrm{SS}/60 | to convert latitude or longitude from degrees, minutes, seconds to  decimal degrees |
-| lb | kg | Y=X\times 2.2 | |
-| mm/s | \mu mol CO_2 m^{2} s^{-1} | Y=X\times 0.04 | |
-| m^2 | ha | Y = X/10^6 | |
-| g/m^2 | kg/ha | Y=X\times 10 | |
-| US ton/acre | Mg/ha | Y = X\times 2.24 | |
-| m^3/ha | cm | Y=X/100 | units used for irrigation and rainfall |
-| % roots | root:shoot (q) | Y=\frac{X}{1-X} | \% \text{roots} = \frac{\text{root biomass}}{\text{total biomass}} |
-| \mu mol cm^{-2} s^{-1} | mmol m^{-2} s^{-1} | Y = X/10 | |
-| mol m^{-2} s^{-1} | mmol m^{-2} s^{-1} | Y = X/10^6 | |
-| mol  m^{-2} s^{-1} | \mu mol cm^{-2} s^{-1} | Y = X/ 10^5 | |
-| mm s^{-2} | mmol m^{-3} s^{-1} | Y=X/41 | Korner et al. [1988] |
-| mg CO_2 g^{-1} h^{-1} | \mu mol kg^{-1} s^{-1} | Y = X\times 6.31 | used for root\_respiration\_rate |
-| \mu mol | mol | Y= X\times 10^6 | |
+| \)X_2=\(root production | \)X_1=\(root biomass & root turnover rate | \)Y = X_2/X_1replace_contentamp; | Gill [2000] |
+| DD\(^{\circ}\) MM'SS | XX.ZZZZ | \(\textrm{XX.ZZZZ} = \textrm{XX} + \textrm{MM}/60+\textrm{SS}/60\) | to convert latitude or longitude from degrees, minutes, seconds to  decimal degrees |
+| lb | kg | \(Y=X\times 2.2\) | |
+| mm/s | \(\mu\) mol CO\(_2\) m\(^{2}\) s\(^{-1}\) | \(Y=X\times 0.04\) | |
+| m\(^2\) | ha | \(Y = X/10^6\) | |
+| g/m\(^2\) | kg/ha | \(Y=X\times 10\) | |
+| US ton/acre | Mg/ha | \(Y = X\times 2.24\) | |
+| m\(^3\)/ha | cm | \(Y=X/100\) | units used for irrigation and rainfall |
+| % roots | root:shoot (q) | \(Y=\frac{X}{1-X}\) | \(\% \text{roots} = \frac{\text{root biomass}}{\text{total biomass}}\) |
+| \(\mu\) mol cm\(^{-2}\) s\(^{-1}\) | mmol m\(^{-2}\) s\(^{-1}\) | \(Y = X/10\) | |
+| mol m\(^{-2}\) s\(^{-1}\) | mmol m\(^{-2}\) s\(^{-1}\) | \(Y = X/10^6\) | |
+| mol  m\(^{-2}\) s\(^{-1}\) | \(\mu\) mol cm\(^{-2}\) s\(^{-1}\) | \(Y = X/ 10^5\) | |
+| mm s\(^{-2}\) | mmol m\(^{-3}\) s\(^{-1}\) | \(Y=X/41\) | Korner et al. [1988] |
+| mg CO\(_2\) g\(^{-1}\) h\(^{-1}\) | \(\mu\) mol kg\(^{-1}\) s\(^{-1}\) | \(Y = X\times 6.31\) | used for root\_respiration\_rate |
+| \(\mu\) mol | mol | \(Y= X\times 10^6\) | |
 | julian day (1--365) | date | | see ref: http://disc.gsfc.nasa.gov/julian_calendar.shtml (NASA Julian Calendar)
-| spacing (m) | density (plants m^{2}) | Y=\frac{1}{\textrm{row spacing}\times\textrm{plant spacing}}  | |
-| kg ha^{-1} y^{-1} | Mg ha^{-1} y^{-1} | Y= X/1000 | |
-| g m^{-2} y^{-1} | Mg ha^{-1} y^{-1}  | Y= X/100 | |
-| kg | mg | Y=X\times 10^6 | |
-| cm^2  | m^2 | Y=X\times 10^4 | |
+| spacing (m) | density (plants m\(^{2}\)) | \(Y=\frac{1}{\textrm{row spacing}\times\textrm{plant spacing}}\)  | |
+| kg ha\(^{-1}\) y\(^{-1}\) | Mg ha\(^{-1}\) y\(^{-1}\) | \(Y= X/1000\) | |
+| g m\(^{-2}\) y\(^{-1}\) | Mg ha\(^{-1}\) y\(^{-1}\)  | \(Y= X/100\) | |
+| kg | mg | \(Y=X\times 10^6\) | |
+| cm\(^2\)  | m\(^2\) | \(Y=X\times 10^4\)  | |
 
 
 
