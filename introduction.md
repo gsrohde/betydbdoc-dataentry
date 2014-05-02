@@ -8,19 +8,3 @@ You will need to create the following accounts:
 * BETYdb https://www.betydb.org/signup  
 * GitHub https://github.com/  
 * Mendeley www.mendeley.com/ 
-
-## Redmine: Reporting errors, suggesting features
-
-#### Reporting errors in Redmine 
-1. Go to [Redmine: BetyDB] (https://ebi-forecast.igb.illinois.edu/redmine/projects/bety-db/) project page.
-2. Click the `New Issue` tab in the center of the ribbon. 
-3. Set `Tracker` to `Bug`
-4. Fill out necessary fields
-5. Click `Create`  
-
-####  Suggesting features in Redmine
-1. Go to [Redmine: BetyDB] (https://ebi-forecast.igb.illinois.edu/redmine/projects/bety-db/) project page.
-2. Click the `New Issue` tab in the center of the ribbon. 
-3. Set `Tracker` to `Feature`
-4. Fill out necessary fields
-5. Click `Create`  
