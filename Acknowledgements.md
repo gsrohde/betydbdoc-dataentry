@@ -1,7 +1,5 @@
+#  Acknowledgements
 
-##  Acknowledgements
+Patrick Mulroony originally implemented the data entry interface, and it is currently maintained by Scott Rohde. Rob Kooper, Andrew Shirk, and Carl Crott have contributed (see [visualization on GitHub](https://github.com/PecanProject/bety/graphs/contributors)).
 
-Patrick Mulroony pat@life.illinois.edu implemented the data entry
-interface. Moein Azimi, David Bettinardi, and Nick Brady, along with
-other members of the Dietze lab, have contributed to the ongoing
-development of this document and the web interface that it describes.
+Many data entry technicians (undergrads) have contributed to the implementation and development of the interface and documentation. These includee Moein Azimi, David Bettinardi, Nick Brady, Emily Cheng, Anjali Patel, along with other members of the EBI Feedstock Productivity and Ecosystem Services modeling group.
