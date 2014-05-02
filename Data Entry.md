@@ -1,5 +1,4 @@
-
-##  BETYdb: Entering new data through the web interface
+# BETYdb: Entering new data through the web interface
 Before entering data, it is first necessary to add and select the
 citation that is the source of the data. It is also necessary for each
 data point to be associated with a Site, Treatment, and Species.
@@ -7,7 +6,7 @@ Cultivar information is also required when available, but it is only
 relevant for domesticated species. Fields with an asterisk (*) are
 required. 
 
-###  Adding a Citation
+##  Adding a Citation
 Citation provides information regarding the source of the data. This
 section should allow us to locate and access the paper of interest.
 
@@ -35,7 +34,7 @@ A PDF copy of each paper should be available through Mendeley.
 
 ![alt text](figures/newcite.png)
 
-### Adding a Site
+## Adding a Site
 
 Each experiment is conducted at a unique site. In the context of BETY,
 the term 'site' refers to a specific location and it is common for many
@@ -91,7 +90,7 @@ among independent studies.
 5. Do **not** enter a new site When plants (or seeds) are collected from multiple locations   and then grown in the same location, this is called 'common garden experiment'. In this case, the location of the study is included as site information. Information about the seed source can be entered as a distinct cultivar.
  
 
-### Site Location 
+## Site Location 
 
 If latitude and longitude coordinates are not available, it is often
 possible to determine the site location based on the site name, city,
@@ -121,7 +120,7 @@ of precision with which a study location is known.
 **Figure 3**: [Form for entering a new site](https://www.betydb.org/sites/new)
 
 
-### Adding a Treatment
+## Adding a Treatment
 Treatments provide a description of a study’s
 treatments. Any specific information such as rate of fertilizer
 application should be recorded in the managements table. In
@@ -156,7 +155,7 @@ crops, this could be how a farmer would be most likely to treat a crop.
 ![alt text](figures/newtreatment.png)
 
 <a id="Section 5.4"></a>
-### Adding a Management 
+## Adding a Management 
 
 Managements refers to something that occurs at a specific time and has a
 quantity. Managements include actions that are done to a plant or
@@ -195,7 +194,7 @@ management, then edit the management and add treatment relationships.
 
 
 <a id="Section_5.5"></a>
-### Adding a Trait
+## Adding a Trait
 
 In general, a 'trait' is a phenotype (a characteristic that the plant
 exhibits). The traits that we are primarily interested in collecting
@@ -273,7 +272,7 @@ will be an F-value that can be useful, but this should not be recorded
 if MSE is available. Only if there is no other information available should you
 record the P-value.
 
-### Adding a Yield and Covariate
+## Adding a Yield and Covariate
 
 The protocol for entering yield data is identical to entering data for a
 trait, with a few exceptions:
@@ -309,7 +308,7 @@ If the size class is a range, then the `root_minimum_diameter` can also be used.
 
 To add a new covariate, go to the [new covariate](http:www.betydb.org/covariates/new) page
 
-### Adding a PFT, Species, and Cultivar
+## Adding a PFT, Species, and Cultivar
 
 Plant functional types (PFTs) are used to group plants for statistical
 modeling and analysis. PFTs are associated with both a specific set of
@@ -332,17 +331,3 @@ the Plants table. Look it up there first.
 To add a new Cultivar, go to the [new
 cultivar](https://www.betydb.org/cultivars/new) page: `Cultivar`
  → `new`.  
-
-##  BETYdb: Bulk Data Upload
-
-Currently the web interface does not support bulk data upload, although
-this is a planned feature for BETY 2.0.
-
-For bulk data upload, or for a complete view of the tables in BETY, a
-blank spreadsheet can be found
-[online](https://spreadsheets0.google.com/spreadsheet/pub?hl=en&hl=en&key=0Ai_PDCcY5g2JdFN1UDJJdjNsZk9RM0Z6bnFDdlQ0clE&output=html)
-and can be downloaded in .xls format
-[spreadsheet](https://spreadsheets0.google.com/spreadsheet/pub?hl=en&hl=en&key=0Ai_PDCcY5g2JdFN1UDJJdjNsZk9RM0Z6bnFDdlQ0clE&output=xls).
-Contact [David LeBauer](mailto:dlebauer@illinois.edu) or [Mike
-Dietze](mailto:mdietze@illinois.edu) for more information about using
-this method of data upload.
