@@ -38,8 +38,8 @@ among independent studies.
 | City         | Nearest city                 |  
 | State           | State, if in the US                |
 | Country          |  Country     | 
-| Longitude | Decimal Form. For conversion see the equation in [Table 9](#Table 9) |
-| Latitude        | Decimal Form. For conversion see the equation in [Table 9](#Table 9)              |
+| Longitude | Decimal Form. For conversion see the equation in table 9 |
+| Latitude        | Decimal Form. For conversion see the equation in table 9              |
 | Greenhouse        | TRUE if plants were grown in a greenhouse, groth champer of post. FALSE if not used as control         |
 | Soil             |By percent clay, sand, and silt if given               | 
 | SOM      |Soil organic matter (% by weight)              | 
