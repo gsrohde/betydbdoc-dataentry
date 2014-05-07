@@ -15,9 +15,9 @@ Papers can be marked as **read** or **unread**, and may be **starred.**
 * Tagging
 
 
-Each project has two groups: "projectname" and "projectname_out" for the papers with data to be entered and for the papers with data that has been entered, respectively. Papers in the _out group may contain data for future entry (for example, traits that are not listed in [Table 6](#Table 6)). 
+Each project has two groups: "projectname" and "projectname_out" for the papers with data to be entered and for the papers with data that has been entered, respectively. Papers in the _out group may contain data for future entry (for example, traits that are not listed in table 6). 
 
-Each project manager may have one or more projects and each project should have one group. Group names should refer to plant species, plant functional types, or another project specific name. A list of current groups can be found in [Table 1](#Table 1). Please make sure that, at a minimum, Mike Dietze and David LeBauer are invited to join each project folder. 
+Each project manager may have one or more projects and each project should have one group. Group names should refer to plant species, plant functional types, or another project specific name. A list of current groups can be found in table 1. Please make sure that, at a minimum, Mike Dietze and David LeBauer are invited to join each project folder. 
 
    1. Open Mendeley desktop
    2. Click `Edit` → `New Group` or `Ctrl+Shift+M`
