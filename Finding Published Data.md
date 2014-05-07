@@ -91,7 +91,7 @@ entered next by completing the following steps:
 **Comment or Highlight** the following information
 
 * Sample size
-* Covariates (see [Table 7](#Table 7))
+* Covariates (see table 7))
 * Treatments
 * Managements
 * Other information entered into the database, e.g. experimental
@@ -100,7 +100,7 @@ entered next by completing the following steps:
 ###  Finding a citation in Mendeley
 
 To find a citation in Mendeley, go to the project folder. Group folders
-and personnel are listed in [Table 1](#Table 1). By default, data entry technicians should
+and personnel are listed in table 1. By default, data entry technicians should
 enter data from papers which have been indicated by a yellow star and in
 the order that they were added to the list. Information and data to be
 collected from a paper can be found under the 'Notes' tab and in
@@ -113,7 +113,7 @@ Google Spreadsheets are used to keep a record of any data that is not
 entered directly from the original publication. Please share all spreadsheets with the user betydb@gmail.com in addition to any collaborators.
 
 * Any raw data that is not directly entered into the database but that
-    is used to derive data or stats using equations in [Table 1](#Table 1) and [Table 5](#Table 5).
+    is used to derive data or stats using equations in table 1 and table 5.
 * Any data extracted from figures, along with the figure number
 * Any calculations that were made. These calculations should be
     included in the cells.
