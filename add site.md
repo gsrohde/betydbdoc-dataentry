@@ -32,7 +32,7 @@ among independent studies.
 4.  If site does not exist, add a new site.  
   
     
-    | Descriptors              |      Additional Notes | 
+| Descriptors              |      Additional Notes | 
 |:-----------------------------|:-------------------------
 | Site Name |Site identifier, sufficient to uniquely identify the site within the paper |
 | City         | Nearest city                 |  
@@ -40,7 +40,7 @@ among independent studies.
 | Country          |  Country     | 
 | Longitude | Decimal Form. For conversion see the equation in table 9 |
 | Latitude        | Decimal Form. For conversion see the equation in table 9              |
-| Greenhouse        | TRUE if plants were grown in a greenhouse, groth champer of post. FALSE if not used as control         |
+| Greenhouse        | TRUE if plants were grown in a greenhouse, growth chamber or pots.|
 | Soil             |By percent clay, sand, and silt if given               | 
 | SOM      |Soil organic matter (% by weight)              | 
 | MAT | Mean Annual Temperature (°C) |
