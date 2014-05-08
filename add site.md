@@ -33,7 +33,7 @@ among independent studies.
   
     
 | Descriptors              |      Additional Notes | 
-|:-----------------------------|:-------------------------|
+| :-----------------------------| :-------------------------|
 | Site Name |Site identifier, sufficient to uniquely identify the site within the paper |
 | City         | Nearest city                 |  
 | State           | State, if in the US                |
