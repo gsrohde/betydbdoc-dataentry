@@ -31,11 +31,6 @@ among independent studies.
     current citation under `Add Citation Relationships`
 4.  If site does not exist, add a new site.  
 
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
     
 | Descriptors              |      Additional Notes | 
 | :-----------------------------| :-------------------------|
