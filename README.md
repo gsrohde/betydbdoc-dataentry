@@ -1,4 +1,4 @@
-betydbdoc-dataentry
+BETYdb Data Entry Workflow Documentation
 ===================
 
-BETYdb Data Entry Documentation
+
