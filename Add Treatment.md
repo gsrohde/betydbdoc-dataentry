@@ -34,7 +34,6 @@ crops, this could be how a farmer would be most likely to treat a crop.
     treatment even though this information can only be used for analysis
     when entered as a management.  
 
-<a id="Section 5.4"></a>
 ## Managements
 
 Managements refers to something that occurs at a specific time and has a
@@ -69,6 +68,6 @@ management, then edit the management and add treatment relationships.
 **Units**:   refers to the units of the level. Units should be converted to those
     in  Table \ref{tab:managements}
     
+## [Editing Management-Treatment Relationships](https://www.betydb.org/treatments)
 
-[Form for entering and editing relationships between treatments and managements](https://www.betydb.org/treatments)
-
+Under Construction for Fall 2014
