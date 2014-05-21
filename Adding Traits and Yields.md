@@ -1,17 +1,6 @@
-# Data Entry Overview
-
-Before entering data, it is first necessary to add and select the
-citation that is the source of the data. It is also necessary for each
-data point to be associated with a Site, Treatment, and Species.
-Cultivar information is also required when available, but it is only
-relevant for domesticated species. Fields with an asterisk (*) are
-required. 
+# [Adding a Trait](https://www.betydb.org/traits/new) \label{sec:traits}
 
 
-
-## Adding a Trait \label{sec:traits}
-
-[Form used to enter a new trait](https://www.betydb.org/traits/new)
 
 In general, a 'trait' is a phenotype (a characteristic that the plant
 exhibits). The traits that we are primarily interested in collecting
@@ -44,18 +33,14 @@ by more thorough explanations:
     chambers, pots, or individual plants. Sometimes this value is not
     clearly stated.  
 
-
-
-### dateLOC
+## dateLOC
 
 The date level of confidence (DateLOC, Table \ref{tab:dateloc}) provides an indication of how accurately the date associated with the trait or yield observation is known. 
 It provides the values that should be entered in this field. 
 If the event occurred at a level of precision not defined by an integer in this table, then use fractions. For example, we commonly use 5.5 to indicate a one week level of precision. 
 If the exact year is not known, but the time of year is, then use 91 to 97, with the second digit to indicate the information known within the year.
 
-
-
-#### Statistics
+## Statistics
 
 Our goal is to record statistics that can be used to estimate standard
 deviation or standard error (https://www.authorea.com/users/5574/articles/6811/). Many different methods can be used to
@@ -86,7 +71,7 @@ will be an F-value that can be useful, but this should not be recorded
 if MSE is available. Only if there is no other information available should you
 record the P-value.
 
-## Adding a Yield
+# Adding a Yield
 
 [Form for adding a new yield record](http://www.betydb.org/yields/new)
 
@@ -103,7 +88,7 @@ basis, and has units of Mg ha^-1 y1
 
 
 
-## Adding a Covariate
+# Adding a Covariate
 
 [Form for entering a new covariate](http:www.betydb.org/covariates/new)
 
