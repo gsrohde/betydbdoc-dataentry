@@ -1,6 +1,6 @@
 #  Reference Tables
 
-**Managements** This is a list of  managements to enter, with the most common management types in bold. It is more important to have management records for Yields than for traits. For greenhouse experiments, it is not necessary to include informaton on fertilizaton, lighting, or greenhouse temperature.
+**Managements** \label{tab:managements} This is a list of  managements to enter, with the most common management types in bold. It is more important to have management records for Yields than for traits. For greenhouse experiments, it is not necessary to include informaton on fertilizaton, lighting, or greenhouse temperature.
 
 | Management Type | Units | Definition | Notes |
 |:----------------|:------|:-----------|:------|
@@ -20,8 +20,10 @@
 | Tillage | | | no units, maybe depth; *tillage* is equivalent to *cultivate* | 
 
 
+<a id="Table 4"></Table 4>
+**Table 4: Date level of confidence (DateLOC) field**
 
-**Date level of confidence (DateLOC) field** Numbering convention for the DateLOC (Date level of confidence) field, used in managements, traits, and yields table. 
+Numbering convention for the DateLOC (Date level of confidence) field, used in managements, traits, and yields table. 
 
 | Dateloc | Definition |
 |:--------|:-----------|
@@ -39,7 +41,10 @@
 | ...etc | | 
 
 
-**List of statistical summaries** \label{tab:stats}List of the statistics that can be entered into the statname field of traits and yields tables. Please see David (or Mike) if you have questions about statistics that do not appear in this list. If you have P, or LSD in a study with \(n\neq b\) (e.g. not a RCBD, see Table \ref{tab:stats}), please convert these values prior to entering the data, and add a note that stat was transformed to the table. Note: These are listed in order of preference, e.g., if SD, SE, or MSE are provided then use these values.
+<a id="Table 5"></Table 5>
+**Table 5: List of statistical summaries**
+
+List of the statistics that can be entered into the statname field of traits and yields tables. Please see David (or Mike) if you have questions about statistics that do not appear in this list. If you have P, or LSD in a study with \(n\neq b\) (e.g. not a RCBD, see Table 8), please convert these values prior to entering the data, and add a note that stat was transformed to the table. Note: These are listed in order of preference, e.g., if SD, SE, or MSE are provided then use these values.
 
 | Statname | Name | Definition | Notes |
 |:----------|:-----|:-----------|:------|
@@ -50,8 +55,8 @@
 | LSD | Least Significant Difference | \(t_{1-\frac{\alpha}{2},n}\sqrt{2\text{MSE}/b}\) | \(b\) is the number of blocks (Rosenberg 2004) |
 | MSD | Minimum Significant Difference |  |  |
 
-
-**Variables**
+<a id="Table 6"></Table 6>
+**Table 6: Variables**
 
 | Variable | Units | Median (90%CI) or Range | Definition |
 |:---------|:------|:------------------------|:-----------|
@@ -83,8 +88,8 @@
 | f labile | % | 0--1 | fraction of litter that goes into the labile carbon pool
 | water conductance | | |
 
-
-**Traits with required covariates**
+<a id="Table 7"></Table 7>
+**Table 7: Traits with required covariates**
 
 A list of traits and the covariates that must be recorded along with the trait value in order to be converted to a constant scale from across studies.*notes:* stomatal conductance (gs) is only useful when reported in conjunction with other photosynthetic data, such as Amax. Specifically, if we have Amax and gs, then estimation of Vcmax only covaries with dark\_respiration\_factor and atmospheric CO2 concentration.  We also now have information to help constrain stomatal\_slope. If we have Amax but not gs, then our estimate of Vcmax will covary with: dark_respiration_factor, CO2, stomatal_slope, cuticular_conductance, and vapor-pressure deficit VPD (which is more difficult to estimate than CO2, but still possible given lat, lon, and date). 
 Most important, there will be a strong covariance between Vcmax and stomatal_slope.
