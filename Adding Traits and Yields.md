@@ -71,9 +71,7 @@ will be an F-value that can be useful, but this should not be recorded
 if MSE is available. Only if there is no other information available should you
 record the P-value.
 
-# Adding a Yield
-
-[Form for adding a new yield record](http://www.betydb.org/yields/new)
+# [Adding a Yield](http://www.betydb.org/yields/new)
 
 The protocol for entering yield data is identical to entering data for a
 trait, with a few exceptions:
@@ -88,9 +86,7 @@ basis, and has units of Mg ha^-1 y1
 
 
 
-# Adding a Covariate
-
-[Form for entering a new covariate](http:www.betydb.org/covariates/new)
+# Adding a [Covariate](http:www.betydb.org/covariates/new)
 
 Covariates are required for many of the traits. Covariates generally
 indicate the environmental conditions under which a measurement was
