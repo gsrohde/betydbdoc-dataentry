@@ -77,8 +77,6 @@ Use Table \ref{table:location_accuracy} to determine the number of significant d
 | Acre            |                    0.001 |
 | 10 Meters       |                   0.0001 |
  
-<a id="Figure 3"></a> ![alt text](figures/newsite.png)
-
-**Figure 3**: [Form for entering a new site](https://www.betydb.org/sites/new)
+[Form for entering a new site](https://www.betydb.org/sites/new)
 
 
