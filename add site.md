@@ -66,7 +66,7 @@ particularly useful in locating sites, along with their coordinates and
 elevation. Alternatively, the site website or address might be found
 through an internet search (e.g. Google).
 
-Use Table \ref{table:location_accuracy} to determine the number of significant digits to indicate the level of precision with which a study location is known.  
+Use Table \ref{tab:location_accuracy} to determine the number of significant digits to indicate the level of precision with which a study location is known.  
 
 \label{tab:location_accuracy}
                  
