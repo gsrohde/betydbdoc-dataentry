@@ -11,6 +11,8 @@ required.
 
 ## Adding a Trait \label{sec:traits}
 
+[Form used to enter a new trait](https://www.betydb.org/traits/new)
+
 In general, a 'trait' is a phenotype (a characteristic that the plant
 exhibits). The traits that we are primarily interested in collecting
 data for are listed in Table \ref{tab:traits}. Before adding trait data, it is necessary to have the citation, treatments, and site information already entered. If the correct
@@ -51,8 +53,7 @@ It provides the values that should be entered in this field.
 If the event occurred at a level of precision not defined by an integer in this table, then use fractions. For example, we commonly use 5.5 to indicate a one week level of precision. 
 If the exact year is not known, but the time of year is, then use 91 to 97, with the second digit to indicate the information known within the year.
 
-<a id="Figure 9"></a>
-**Figure 9**: [Form used to enter a new trait](https://www.betydb.org/traits/new)
+
 
 #### Statistics
 
@@ -85,7 +86,9 @@ will be an F-value that can be useful, but this should not be recorded
 if MSE is available. Only if there is no other information available should you
 record the P-value.
 
-## Adding a Yield and Covariate
+## Adding a Yield
+
+[Form for adding a new yield record](http://www.betydb.org/yields/new)
 
 The protocol for entering yield data is identical to entering data for a
 trait, with a few exceptions:
@@ -98,10 +101,11 @@ trait, with a few exceptions:
 Yield is equivalent to aboveground biomass on a per-area
 basis, and has units of Mg ha^-1 y1  
 
-To add a new yield, go to the [new
-yield](http://www.betydb.org/yields/new) page
 
 
+## Adding a Covariate
+
+[Form for entering a new covariate](http:www.betydb.org/covariates/new)
 
 Covariates are required for many of the traits. Covariates generally
 indicate the environmental conditions under which a measurement was
@@ -119,4 +123,4 @@ covariate. The term ’fine root’ often refers to the \(<\)2mm size class,
 and in this case, the covariate `root_maximum_diameter` would be set to 2. 
 If the size class is a range, then the `root_minimum_diameter` can also be used.
 
-To add a new covariate, go to the [new covariate](http:www.betydb.org/covariates/new) page.
+
