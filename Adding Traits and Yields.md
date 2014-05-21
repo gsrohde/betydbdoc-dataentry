@@ -8,12 +8,12 @@ relevant for domesticated species. Fields with an asterisk (*) are
 required. 
 
 
-<a id="Section_5.5"></a>
-## Adding a Trait
+
+## Adding a Trait \label{sec:traits}
 
 In general, a 'trait' is a phenotype (a characteristic that the plant
 exhibits). The traits that we are primarily interested in collecting
-data for are listed in [Table 6](#Table 6). Before adding trait data, it is necessary to have the citation, treatments, and site information already entered. If the correct
+data for are listed in Table \ref{tab:traits}. Before adding trait data, it is necessary to have the citation, treatments, and site information already entered. If the correct
 citation is not identified at the top of the page [Figure 8](#Figure 8). To add a new Trait,
 go to the [new trait](http://www.betydb.org/traits/new)
 page: `Trait` → `new`.
@@ -46,12 +46,10 @@ by more thorough explanations:
 
 ### dateLOC
 
-The date level of confidence (DateLOC) provides an indication of how accurately the date associated with the trait or yield observation is
-known. It provides the values that should be entered in this field. If the
-event occurred at a level of precision not defined by an integer in this
-table, then use fractions. For example, we commonly use 5.5 to indicate a one week level of precision. If the exact year is not known, but the time of
-year is, then use 91 to 97, with the second digit to indicate the information
-known within the year.
+The date level of confidence (DateLOC, Table \ref{tab:dateloc}) provides an indication of how accurately the date associated with the trait or yield observation is known. 
+It provides the values that should be entered in this field. 
+If the event occurred at a level of precision not defined by an integer in this table, then use fractions. For example, we commonly use 5.5 to indicate a one week level of precision. 
+If the exact year is not known, but the time of year is, then use 91 to 97, with the second digit to indicate the information known within the year.
 
 <a id="Figure 9"></a>
 **Figure 9**: [Form used to enter a new trait](https://www.betydb.org/traits/new)
@@ -110,7 +108,7 @@ indicate the environmental conditions under which a measurement was
 made. Without covariate information, the trait data will have limited
 value.
 
-A complete list of required covariates can be found in . For all
+A complete list of required covariates can be found in Table \ref{tab:covariates}. For all
 respiration rates and photosynthetic parameters, temperature is recorded
 as a covariate. Soil moisture, humidity, and other such variables that
 were measured at the time of the measurement may be required in
@@ -121,4 +119,4 @@ covariate. The term ’fine root’ often refers to the \(<\)2mm size class,
 and in this case, the covariate `root_maximum_diameter` would be set to 2. 
 If the size class is a range, then the `root_minimum_diameter` can also be used.
 
-To add a new covariate, go to the [new covariate](http:www.betydb.org/covariates/new) page
+To add a new covariate, go to the [new covariate](http:www.betydb.org/covariates/new) page.
