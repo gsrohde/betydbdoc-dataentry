@@ -48,7 +48,7 @@ Managements are the way a treatment becomes quantified. Each treatment
 is often associated with multiple managements. The combination of
 managements associated with a particular treatment will distinguish it
 from other treatments. The management types that can be entered into
-BETY are described in [Table 3](#Table 3).
+BETY are described in Table \ref{tab:managements}.
 Each management may be associated with one or more treatments. For
 example, in a fertilization experiment, planting, irrigation, and
 herbicide managements would be applied to all plots but the
@@ -63,12 +63,12 @@ Traits, unless specifically required by the data or project manager.
 To associate a management with multiple treatments, first create the
 management, then edit the management and add treatment relationships.
 
-**Dateloc**:   date level of confidence, explained in [Adding a Trait](#Section_5.5) and defined in [Table 6](#Table 6)    
+**Dateloc**:   date level of confidence, explained in Section \ref{sec:traits} and defined in Table \ref{tab:traits}.
 **Mgmttype**:   the name of the management being used. A list of standardized
-    management types can be found in [Table 3](#Table 3)      
+    management types can be found in Table \ref{tab:managements}      
 **Level**:   a quantification of mgmttype   
 **Units**:   refers to the units of the level. Units should be converted to those
-    in  [Table 3](#Table 3)  
+    in  Table \ref{tab:managements}
     
 
 **Figure 6**: [Form for entering and editing relationships between treatments and managements](https://www.betydb.org/treatments)
