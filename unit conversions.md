@@ -13,7 +13,6 @@ For many transformations, particularly when automated, please use the udunits2 s
 
 NB: Many of these conversions have been automated within [PEcAn](https://github.com/PecanProject/pecan).
 
-\begin{table}
 \begin{tabular}
 
 **Useful conversions for entering site, management, yield, and trait data**
@@ -44,4 +43,3 @@ NB: Many of these conversions have been automated within [PEcAn](https://github.
 | kg | mg | \(Y=X\times 10^6\) | |
 | cm\(^2\)  | m\(^2\) | \(Y=X\times 10^4\)  | |
 \end{tabular}
-\end{table}
