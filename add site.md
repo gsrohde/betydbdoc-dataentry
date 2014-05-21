@@ -1,4 +1,4 @@
-# Adding a Site
+# [Adding a Site](https://www.betydb.org/sites/new)
 
 Each experiment is conducted at a unique site. In the context of BETY,
 the term 'site' refers to a specific location and it is common for many
@@ -31,7 +31,8 @@ among independent studies.
     current citation under `Add Citation Relationships`
 4.  If site does not exist, add a new site.  
 
-    
+**Table \ref{tab:sites}: Attributes of a site record** \label{tab:sites}
+
 | Descriptors              |      Additional Notes | 
 | :-----------------------------| :-------------------------|
 | Site Name |Site identifier, sufficient to uniquely identify the site within the paper |
@@ -68,7 +69,7 @@ through an internet search (e.g. Google).
 
 Use Table \ref{tab:location_accuracy} to determine the number of significant digits to indicate the level of precision with which a study location is known.  
 
-\label{tab:location_accuracy}
+**Table \ref{tab:location_accuracy}** \label{tab:location_accuracy} Level of accuracy to record in lat and lon fields. 
                  
 | Location Detail |         Degree Accuracy  |
 |:----------------|-------------------------:|
@@ -77,6 +78,6 @@ Use Table \ref{tab:location_accuracy} to determine the number of significant dig
 | Acre            |                    0.001 |
 | 10 Meters       |                   0.0001 |
  
-[Form for entering a new site](https://www.betydb.org/sites/new)
+
 
 
