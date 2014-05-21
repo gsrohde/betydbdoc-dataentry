@@ -86,7 +86,7 @@ basis, and has units of Mg ha^-1 y1
 
 
 
-# Adding a [Covariate](http:www.betydb.org/covariates/new)
+# [Adding a Covariate](http:www.betydb.org/covariates/new)
 
 Covariates are required for many of the traits. Covariates generally
 indicate the environmental conditions under which a measurement was
