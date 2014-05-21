@@ -38,8 +38,8 @@ among independent studies.
 | City         | Nearest city                 |  
 | State           | State, if in the US                |
 | Country          |  Country     | 
-| Longitude | Decimal Form. For conversion see the equation in Table \ref{tab:conversions} |
-| Latitude        | Decimal Form. For conversion see the equation in Table \ref{tab:conversions}              |
+| Longitude | Decimal Form. For conversion see the equation in table 9 |
+| Latitude        | Decimal Form. For conversion see the equation in table 9              |
 | Greenhouse        | TRUE if plants were grown in a greenhouse, growth chamber or pots.|
 | Soil             |By percent clay, sand, and silt if given               | 
 | SOM      |Soil organic matter (% by weight)              | 
@@ -66,10 +66,9 @@ particularly useful in locating sites, along with their coordinates and
 elevation. Alternatively, the site website or address might be found
 through an internet search (e.g. Google).
 
-Use Table 2 to determine the number of significant digits to indicate the level
-of precision with which a study location is known.  
+Use Table \ref{table:location_accuracy} to determine the number of significant digits to indicate the level of precision with which a study location is known.  
 
-<a id="Table 2"></Table 2>
+\label{tab:location_accuracy}
                  
 | Location Detail |         Degree Accuracy  |
 |:----------------|-------------------------:|
