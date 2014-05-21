@@ -38,8 +38,8 @@ among independent studies.
 | City         | Nearest city                 |  
 | State           | State, if in the US                |
 | Country          |  Country     | 
-| Longitude | Decimal Form. For conversion see the equation in table 9 |
-| Latitude        | Decimal Form. For conversion see the equation in table 9              |
+| Longitude | Decimal Form. For conversion see the equation in Table \ref{tab:conversions} |
+| Latitude        | Decimal Form. For conversion see the equation in Table \ref{tab:conversions}              |
 | Greenhouse        | TRUE if plants were grown in a greenhouse, growth chamber or pots.|
 | Soil             |By percent clay, sand, and silt if given               | 
 | SOM      |Soil organic matter (% by weight)              | 
