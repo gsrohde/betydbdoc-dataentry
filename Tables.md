@@ -20,10 +20,8 @@
 | Tillage | | | no units, maybe depth; *tillage* is equivalent to *cultivate* | 
 
 
-<a id="Table 4"></Table 4>
-**Table 4: Date level of confidence (DateLOC) field**
 
-Numbering convention for the DateLOC (Date level of confidence) field, used in managements, traits, and yields table. 
+**Date level of confidence (DateLOC) field** Numbering convention for the DateLOC (Date level of confidence) field, used in managements, traits, and yields table. \label{tab:dateloc}.
 
 | Dateloc | Definition |
 |:--------|:-----------|
@@ -55,8 +53,8 @@ List of the statistics that can be entered into the statname field of traits and
 | LSD | Least Significant Difference | \(t_{1-\frac{\alpha}{2},n}\sqrt{2\text{MSE}/b}\) | \(b\) is the number of blocks (Rosenberg 2004) |
 | MSD | Minimum Significant Difference |  |  |
 
-<a id="Table 6"></Table 6>
-**Table 6: Variables**
+
+**Key Trait Variables** \label{tab:traits}
 
 | Variable | Units | Median (90%CI) or Range | Definition |
 |:---------|:------|:------------------------|:-----------|
@@ -88,10 +86,8 @@ List of the statistics that can be entered into the statname field of traits and
 | f labile | % | 0--1 | fraction of litter that goes into the labile carbon pool
 | water conductance | | |
 
-<a id="Table 7"></Table 7>
-**Table 7: Traits with required covariates**
 
-A list of traits and the covariates that must be recorded along with the trait value in order to be converted to a constant scale from across studies.*notes:* stomatal conductance (gs) is only useful when reported in conjunction with other photosynthetic data, such as Amax. Specifically, if we have Amax and gs, then estimation of Vcmax only covaries with dark\_respiration\_factor and atmospheric CO2 concentration.  We also now have information to help constrain stomatal\_slope. If we have Amax but not gs, then our estimate of Vcmax will covary with: dark_respiration_factor, CO2, stomatal_slope, cuticular_conductance, and vapor-pressure deficit VPD (which is more difficult to estimate than CO2, but still possible given lat, lon, and date). 
+**Traits with required covariates** \label{tab:covariates} A list of traits and the covariates that must be recorded along with the trait value in order to be converted to a constant scale from across studies.*notes:* stomatal conductance (gs) is only useful when reported in conjunction with other photosynthetic data, such as Amax. Specifically, if we have Amax and gs, then estimation of Vcmax only covaries with dark\_respiration\_factor and atmospheric CO2 concentration.  We also now have information to help constrain stomatal\_slope. If we have Amax but not gs, then our estimate of Vcmax will covary with: dark_respiration_factor, CO2, stomatal_slope, cuticular_conductance, and vapor-pressure deficit VPD (which is more difficult to estimate than CO2, but still possible given lat, lon, and date). 
 Most important, there will be a strong covariance between Vcmax and stomatal_slope.
 
 
