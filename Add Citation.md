@@ -23,5 +23,3 @@ A PDF copy of each paper should be available through Mendeley.
     *  **URL**: Web address of the article, preferably from publisher's website
     *  **PDF**: URL of the PDF of the article 
 5. [Form for entering a new citation](https://www.betydb.org/citations/new)   
-
-![alt text](figures/newcite.png)
