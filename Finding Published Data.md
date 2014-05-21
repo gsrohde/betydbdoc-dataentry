@@ -17,7 +17,7 @@ Papers can be marked as **read** or **unread**, and may be **starred.**
 
 Each project has two groups: "projectname" and "projectname_out" for the papers with data to be entered and for the papers with data that has been entered, respectively. Papers in the _out group may contain data for future entry (for example, traits that are not listed in Table \ref{tab:traits}). 
 
-Each project manager may have one or more projects and each project should have one group. Group names should refer to plant species, plant functional types, or another project specific name. A list of current groups can be found in table 1. Please make sure that, at a minimum, Mike Dietze and David LeBauer are invited to join each project folder. 
+Each project manager may have one or more projects and each project should have one group. Group names should refer to plant species, plant functional types, or another project specific name. Please make sure that David LeBauer is invited to join each project folder. 
 
    1. Open Mendeley desktop
    2. Click `Edit` → `New Group` or `Ctrl+Shift+M`
@@ -91,7 +91,7 @@ entered next by completing the following steps:
 **Comment or Highlight** the following information
 
 * Sample size
-* Covariates (see table 7))
+* Covariates (see table \ref{tab:covariates})
 * Treatments
 * Managements
 * Other information entered into the database, e.g. experimental
@@ -99,11 +99,9 @@ entered next by completing the following steps:
 
 ###  Finding a citation in Mendeley
 
-To find a citation in Mendeley, go to the project folder. Group folders
-and personnel are listed in table 1. By default, data entry technicians should
-enter data from papers which have been indicated by a yellow star and in
-the order that they were added to the list. Information and data to be
-collected from a paper can be found under the 'Notes' tab and in
+To find a citation in Mendeley, go to the project folder. 
+By default, data entry technicians should enter data from papers which have been indicated by a yellow star and in the order that they were added to the list. \
+Information and data to be collected from a paper can be found under the 'Notes' tab and in
 highlighted sections of the paper.
 
 <a id="Section 3"></a> 
@@ -113,14 +111,11 @@ Google Spreadsheets are used to keep a record of any data that is not
 entered directly from the original publication. Please share all spreadsheets with the user betydb@gmail.com in addition to any collaborators.
 
 * Any raw data that is not directly entered into the database but that
-    is used to derive data or stats using equations in table 1 and table 5.
+    is used to derive data or stats using equations in Tables \ref{tab:conversions} or \ref{tab:stats}.
 * Any data extracted from figures, along with the figure number
 * Any calculations that were made. These calculations should be
     included in the cells.
 
 Each project has a Google document spreadsheet with the title "project\_data". 
-In this spreadsheet, each reference should have a
-separate worksheet labeled with the citation key (`authorYYYabc`
-format). Do not enter data into excel first as this is prone to errors and
-information such as equations may be lost when uploading or
-copy-pasting.
+In this spreadsheet, each reference should have a separate worksheet labeled with the citation key (`authorYYYabc` format). 
+Do not enter data into excel first as this is prone to errors and information such as equations may be lost when uploading or copy-pasting.
