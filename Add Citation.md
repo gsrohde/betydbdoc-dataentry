@@ -1,4 +1,5 @@
-#  Adding a Citation
+#  [Adding a Citation](https://www.betydb.org/citations/new)
+
 Citation provides information regarding the source of the data. This
 section should allow us to locate and access the paper of interest.
 
@@ -22,4 +23,4 @@ A PDF copy of each paper should be available through Mendeley.
         articles do not have a DOI.
     *  **URL**: Web address of the article, preferably from publisher's website
     *  **PDF**: URL of the PDF of the article 
-5. [Form for entering a new citation](https://www.betydb.org/citations/new)   
+   
