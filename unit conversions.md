@@ -14,8 +14,7 @@ For many transformations, particularly when automated, please use the udunits2 s
 NB: Many of these conversions have been automated within [PEcAn](https://github.com/PecanProject/pecan).
 
 
-
-**Useful conversions for entering site, management, yield, and trait data \label{tab:conversions}**
+**Useful conversions for entering site, management, yield, and trait data**
 
 
 
