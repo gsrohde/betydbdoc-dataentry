@@ -1,8 +1,6 @@
-#  [Adding a Citation](https://www.betydb.org/citations/new)
+#  [Adding a Citation](https://www.betydb.org/citations/new)   
 
-Citation provides information regarding the source of the data. This
-section should allow us to locate and access the paper of interest.
-
+Citation provides information regarding the source of the data. 
 A PDF copy of each paper should be available through Mendeley.
 
 1.  Select one of the starred papers from your project's Mendeley folder.
@@ -23,4 +21,4 @@ A PDF copy of each paper should be available through Mendeley.
         articles do not have a DOI.
     *  **URL**: Web address of the article, preferably from publisher's website
     *  **PDF**: URL of the PDF of the article 
-   
+
