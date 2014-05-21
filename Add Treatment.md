@@ -1,6 +1,6 @@
 # Adding Treatments and Managements
 
-## Treatments
+## [Treatments](https://www.betydb.org/treatments/new)
 
 Treatments provide a description of a study’s
 treatments. Any specific information such as rate of fertilizer
@@ -34,7 +34,7 @@ crops, this could be how a farmer would be most likely to treat a crop.
     treatment even though this information can only be used for analysis
     when entered as a management.  
 
-## Managements
+## [Managements](https://www.betydb.org/managements/new)
 
 Managements refers to something that occurs at a specific time and has a
 quantity. Managements include actions that are done to a plant or
