@@ -33,7 +33,6 @@ crops, this could be how a farmer would be most likely to treat a crop.
     identification purposes to use a quantified description of the
     treatment even though this information can only be used for analysis
     when entered as a management.  
-![alt text](figures/newtreatment.png)
 
 <a id="Section 5.4"></a>
 ## Managements
@@ -55,9 +54,9 @@ herbicide managements would be applied to all plots but the
 fertilization will be specific to a treatment. For a multi-year
 experiment, there may be multiple entries for the same type of
 management, reflecting, for example, repeated applications of herbicide
-or fertilizer (for example, see [Figure 6](#Figure 6)).
+or fertilizer.
 
-*note:* At present, managements are recorded for Yields but not for
+*note:* By default managements are recorded for Yields but not for
 Traits, unless specifically required by the data or project manager.
 
 To associate a management with multiple treatments, first create the
@@ -71,5 +70,5 @@ management, then edit the management and add treatment relationships.
     in  Table \ref{tab:managements}
     
 
-**Figure 6**: [Form for entering and editing relationships between treatments and managements](https://www.betydb.org/treatments)
+[Form for entering and editing relationships between treatments and managements](https://www.betydb.org/treatments)
 
