@@ -22,7 +22,7 @@ among independent studies.
         -   Use the same site if the previous study uses the *exact same
             location* and experimental setup.
         -   Create a new site if the study was conducted in a different
-            fields (i.e., not the exact same location).
+            field (i.e., not the exact same location).
         -   Create a new site if one study was conducted in a greenhouse
             and another was conducted in a field.
         -   Do not use distinct sites for seed source in a common garden
