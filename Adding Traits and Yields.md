@@ -82,7 +82,7 @@ trait, with a few exceptions:
     moisture content can be added as a trait
 
 Yield is equivalent to aboveground biomass on a per-area
-basis, and has units of Mg ha^-1 y1  
+basis, and has units of Mg ha^-1 y^-1  
 
 
 
