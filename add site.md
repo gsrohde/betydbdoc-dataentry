@@ -14,7 +14,7 @@ among independent studies.
     -   If a site name is given, try to locate the site using a
         combination of Google and Google Maps
     -   If latitude and longitude are given in the paper, search by lat
-        and lon, which will return all sites within 1 degree lat and
+        and lon, which will return all sites within $\pm$ 1 degree lat and
         long.
     -   If an existing site is plausibly the same site as the one
         mentioned in the paper, it will be necessary to check other
