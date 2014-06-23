@@ -100,7 +100,7 @@ entered next by completing the following steps:
 ###  Finding a citation in Mendeley
 
 To find a citation in Mendeley, go to the project folder. 
-By default, data entry technicians should enter data from papers which have been indicated by a yellow star and in the order that they were added to the list. \
+By default, data entry technicians should enter data from papers which have been indicated by a yellow star and in the order that they were added to the list. 
 Information and data to be collected from a paper can be found under the 'Notes' tab and in
 highlighted sections of the paper.
 
