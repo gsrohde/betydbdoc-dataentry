@@ -13,4 +13,5 @@ Extracting Data From Figures.md
 stat conversions.md
 unit conversions.md
 Tables.md
+license-citation.md
 Acknowledgements.md
