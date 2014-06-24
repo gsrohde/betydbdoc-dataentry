@@ -12,6 +12,5 @@ QAQC.md
 Extracting Data From Figures.md
 stat conversions.md
 unit conversions.md
-tab-conversions.tex
 Tables.md
 Acknowledgements.md
