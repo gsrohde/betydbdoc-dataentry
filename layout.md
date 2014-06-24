@@ -8,6 +8,7 @@ add site.md
 figures/Addnewsite1/Addnewsite1.jpg
 Add Treatment.md
 figures/Addnewtreatment/Addnewtreatment.jpg
+figures/Addnewmanagement/Addnewmanagement.jpg
 Adding Traits and Yields.md
 Adding PFTs Species Cultivars.md
 bulk upload.md
