@@ -1,1 +1,1 @@
-Replace this text with your caption
+Figure 7. Sample spreadsheet for bulk data upload
