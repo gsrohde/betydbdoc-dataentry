@@ -3,6 +3,7 @@ introduction.md
 Finding Published Data.md
 Overview.md
 Add Citation.md
+figures/Addnewcitation/Addnewcitation.jpg
 add site.md
 Add Treatment.md
 Adding Traits and Yields.md
