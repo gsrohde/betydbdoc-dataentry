@@ -3,6 +3,7 @@ introduction.md
 Finding Published Data.md
 Overview.md
 Add Citation.md
+figures/Screen Shot 2014-06-24 at 2.25.59 PM/Screen Shot 2014-06-24 at 2.25.59 PM.png
 add site.md
 Add Treatment.md
 Adding Traits and Yields.md
