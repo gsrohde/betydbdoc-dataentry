@@ -22,7 +22,7 @@ by more thorough explanations:
     drop-down box  
 **DateLOC**:   Date Level of confidence. See for values.  
 **TimeLOC**:   Time Level of confidence. See for values.
-**Mean**:  For yield, mean is in units of tons per hectare per year (t/ha)  
+* **Mean**:  For yield, mean is in units of tons per hectare per year (t/ha)  
 **Stat name**:   is the name of the statistical method used (usually one of SE, SD, MSE,
     CI, LSD, HSD, MSD). See for more details.  
 **Statistic**:   is the value of the statistic associated with Stat name.  
