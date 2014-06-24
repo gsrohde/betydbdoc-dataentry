@@ -8,7 +8,7 @@ To extract information from a figure, the general method is:
 4. click on the points. 
  
 
-Some software programs automatically recognize lines or points. I am usually after points, and in practice the results are often too inconsistent to be helpful even with 100s of points. I have not found one that distinguishes different symbols. This feature could be worth the trouble for digitizing lines, but this is not commonly required.
+Some software programs automatically recognize lines or points. However, since points are usually sought after, the results are often too inconsistent to be helpful even with 100s of points. Also, no program has yet been found to be able to distinguish different symbols. This feature could be worth the trouble for digitizing lines, but this is not commonly required.
 
 The program returns each point as an x-y matrix.
 
