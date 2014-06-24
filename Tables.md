@@ -21,7 +21,7 @@
 
 
 
-**Table \ref{tab:dateloc}: Date level of confidence (DateLOC) field** Numbering convention for the DateLOC (Date level of confidence) field, used in managements, traits, and yields table. \label{tab:dateloc}.
+**Table \ref{tab:dateloc}: Date level of confidence (DateLOC) field** Numbering convention for the DateLOC (Date level of confidence) and TimeLOC (Time level of confidence) field, used in managements, traits, and yields table. \label{tab:dateloc}.
 
 | Dateloc | Definition |
 |:--------|:-----------|
