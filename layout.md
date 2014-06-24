@@ -5,6 +5,7 @@ Overview.md
 Add Citation.md
 figures/Addnewcitation1/Addnewcitation1.jpg
 add site.md
+figures/Screen Shot 2014-06-24 at 2.30.27 PM/Screen Shot 2014-06-24 at 2.30.27 PM.png
 Add Treatment.md
 Adding Traits and Yields.md
 Adding PFTs Species Cultivars.md
