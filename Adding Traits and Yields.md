@@ -22,7 +22,6 @@ by more thorough explanations:
     drop-down box  
 **DateLOC**:   Date Level of confidence. See for values.  
 **TimeLOC**:   Time Level of confidence. See for values.
-
 **Mean**:   mean is in units of tons per hectare per year (t/ha)  
 **Stat name**:   is the name of the statistical method used (usually one of SE, SD, MSE,
     CI, LSD, HSD, MSD). See for more details.  
@@ -33,7 +32,8 @@ by more thorough explanations:
     setting, this is often the number of plots in each treatment, but in
     a greenhouse, growth chamber, or pot-study this may be the number of
     chambers, pots, or individual plants. Sometimes this value is not
-    clearly stated.  
+    clearly stated.
+  
 
 ## dateLOC
 
