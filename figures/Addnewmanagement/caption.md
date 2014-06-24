@@ -1,1 +1,1 @@
-Replace this text with your caption
+Figure 4. Adding a new management 
