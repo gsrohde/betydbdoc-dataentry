@@ -1,1 +1,1 @@
-Replace this text with your caption
+Figure 2. Adding a new site
