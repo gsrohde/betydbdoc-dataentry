@@ -1,1 +1,1 @@
-Replace this text with your caption
+Figure 6. Adding a new cultivar
