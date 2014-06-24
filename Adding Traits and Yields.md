@@ -16,17 +16,17 @@ collected when required for a particular project. Most of the fields in the Trai
 by more thorough explanations:
 
 
- **Species**: Search for species in the database using the search box; if species
+* **Species**: Search for species in the database using the search box; if species
     is not found, then the new species should be added to the database. 
-  **Cultivar**:   primarily used for crops; If the cultivar being used is not found in
+* **Cultivar**:   primarily used for crops; If the cultivar being used is not found in
     drop-down box  
-**DateLOC**:   Date Level of confidence. See for values.  
-**TimeLOC**:   Time Level of confidence. See for values.
+* **DateLOC**:   Date Level of confidence. See for values.  
+* **TimeLOC**:   Time Level of confidence. See for values.
 * **Mean**:  For yield, mean is in units of tons per hectare per year (t/ha)  
-**Stat name**:   is the name of the statistical method used (usually one of SE, SD, MSE,
+* **Stat name**:   is the name of the statistical method used (usually one of SE, SD, MSE,
     CI, LSD, HSD, MSD). See for more details.  
-**Statistic**:   is the value of the statistic associated with Stat name.  
-**N**:   Always record N if provided. N is the number of experimental
+* **Statistic**:   is the value of the statistic associated with Stat name.  
+* **N**:   Always record N if provided. N is the number of experimental
     replicates, often referred to as the sample size; N represents the
     number of independent units within each treatment: in a field
     setting, this is often the number of plots in each treatment, but in
