@@ -1,1 +1,1 @@
-Replace this text with your caption
+Figure 5. Adding a new trait & new covariate
