@@ -21,6 +21,7 @@ by more thorough explanations:
   **Cultivar**:   primarily used for crops; If the cultivar being used is not found in
     drop-down box  
 **DateLOC**:   Date Level of confidence. See for values.  
+**TimeLOC**:   Time Level of confidence. See for values.
 **Mean**:   mean is in units of tons per hectare per year (t/ha)  
 **Stat name**:   is the name of the statistical method used (usually one of SE, SD, MSE,
     CI, LSD, HSD, MSD). See for more details.  
@@ -39,6 +40,11 @@ The date level of confidence (DateLOC, Table \ref{tab:dateloc}) provides an indi
 It provides the values that should be entered in this field. 
 If the event occurred at a level of precision not defined by an integer in this table, then use fractions. For example, we commonly use 5.5 to indicate a one week level of precision. 
 If the exact year is not known, but the time of year is, then use 91 to 97, with the second digit to indicate the information known within the year.
+
+## TimeLOC
+The time level of confidence (TimeLOC, Table \ref{tab:dateloc}) provides an indication of how accurately the time associated with the trait or yield observation is known. 
+It provides the values that should be entered in this field. 
+
 
 ## Statistics
 
