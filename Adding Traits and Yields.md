@@ -17,7 +17,7 @@ by more thorough explanations:
 
 
  **Species**: Search for species in the database using the search box; if species
-    is not found  
+    is not found, then the new species should be added to the database. 
   **Cultivar**:   primarily used for crops; If the cultivar being used is not found in
     drop-down box  
 **DateLOC**:   Date Level of confidence. See for values.  
