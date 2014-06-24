@@ -31,7 +31,7 @@ NB: Many of these conversions have been automated within [PEcAn](https://github.
 | mol m\(^{-2}\) s\(^{-1}\) | mmol m\(^{-2}\) s\(^{-1}\) | \(Y = X/10^6\) | |
 | mol  m\(^{-2}\) s\(^{-1}\) | \(\mu\) mol cm\(^{-2}\) s\(^{-1}\) | \(Y = X/ 10^5\) | |
 | mm s\(^{-2}\) | mmol m\(^{-3}\) s\(^{-1}\) | \(Y=X/41\) | Korner et al. [1988] |
-| mg CO\(_2\) g\(^{-1}\) h\(^{-1}\) | \(\mu\) mol kg\(^{-1}\) s\(^{-1}\) | \(Y = X\times 6.31\) | used for root_respiration_rate |
+| mg CO\(_2\) g\(^{-1}\) h\(^{-1}\) | \(\mu\) mol kg\(^{-1}\) s\(^{-1}\) | \(Y = X\times 6.31\) | used for root\_respiration\_rate |
 | \(\mu\) mol | mol | \(Y= X\times 10^6\) | |
 | julian day (1--365) | date | | see ref: http://disc.gsfc.nasa.gov/julian_calendar.shtml (NASA Julian Calendar)
 | spacing (m) | density (plants m\(^{2}\)) | \(Y=\frac{1}{\textrm{row spacing}\times\textrm{plant spacing}}\)  | |
