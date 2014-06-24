@@ -1,1 +1,1 @@
-Replace this text with your caption
+Figure 3. Adding a new treatment
