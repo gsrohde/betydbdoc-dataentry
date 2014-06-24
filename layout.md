@@ -5,6 +5,7 @@ Overview.md
 Add Citation.md
 figures/Addnewcitation1/Addnewcitation1.jpg
 add site.md
+figures/Addnewsite/Addnewsite.jpg
 Add Treatment.md
 Adding Traits and Yields.md
 Adding PFTs Species Cultivars.md
