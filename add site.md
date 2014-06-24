@@ -31,7 +31,7 @@ among independent studies.
     current citation under `Add Citation Relationships`
 4.  If site does not exist, add a new site.  
 
-**Attributes of a site record** \label{tab:sites}
+**\ref{tab:sites}: Attributes of a site record** \label{tab:sites}
 
 | Descriptors              |      Additional Notes | 
 | :-----------------------------| :-------------------------|
