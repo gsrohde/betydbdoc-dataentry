@@ -1,6 +1,6 @@
 #  Reference Tables
 
-**Table \ref{tab:managements}: Managements** \label{tab:managements} This is a list of  managements to enter, with the most common management types in bold. It is more important to have management records for Yields than for traits. For greenhouse experiments, it is not necessary to include informaton on fertilizaton, lighting, or greenhouse temperature.
+**Managements** \label{tab:managements} This is a list of  managements to enter, with the most common management types in bold. It is more important to have management records for Yields than for traits. For greenhouse experiments, it is not necessary to include informaton on fertilizaton, lighting, or greenhouse temperature.
 
 | Management Type | Units | Definition | Notes |
 |:----------------|:------|:-----------|:------|
