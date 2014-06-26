@@ -4,20 +4,23 @@ Currently the web interface does not support bulk data upload, although this is 
 For bulk data upload, or for a complete view of the tables in BETY, a blank spreadsheet can be found
 [online](https://spreadsheets0.google.com/spreadsheet/pub?hl=en&hl=en&key=0Ai_PDCcY5g2JdFN1UDJJdjNsZk9RM0Z6bnFDdlQ0clE&output=html) and can be downloaded in .xls format [spreadsheet](https://spreadsheets0.google.com/spreadsheet/pub?hl=en&hl=en&key=0Ai_PDCcY5g2JdFN1UDJJdjNsZk9RM0Z6bnFDdlQ0clE&output=xls).
  
-* There are three phases for a basic bulk upload of data : 
-* 1. Use the web interface 
+There are three phases for a basic bulk upload of data : 
+
+1. Use the web interface 
     * to enter metadata (new sites, citations, treatments, managements)
     * obtain a template appropriate for your data set.
-* 2. Fill in the template with your data. 
-* 3. Use the web interface to upload your data set and insert it into the database.
-* For now, only the steps needed to upload yields data will be outlined in order to make this case simpler. 
-* For clarity, in what follows, the term "field" wll be used to refer to the heading used in the uploaded CSV file and the term "column" or "attribute" to refer to an attribute of a yield datum in the yields table of the database. 
+2. Fill in the template with your data. 
+3. Use the web interface to upload your data set and insert it into the database.
+
+For now, only the steps needed to upload yields data will be outlined in order to make this case simpler. 
+
+For clarity, in what follows, the term "field" wll be used to refer to the heading used in the uploaded CSV file and the term "column" or "attribute" to refer to an attribute of a yield datum in the yields table of the database. 
 * **Required fields**: 
-* 1. Citation
+1. Citation
     * If only one citation for the entire dataset exists, this may be specified interactively by choosing a citation on the citations page 
     * otherwise, specify in the CSV table using either (doi) or (author, year, first_n_characters_of(title)) for some number n; or perhaps (author, year, first_3_words_of(title)) 
-* 2. site: use sitename 
-* 3. species: use scientificname 
+2. site: use sitename 
+3. species: use scientificname 
 4. treatment: use name date: require one of the forms "2003-07-25", "2003-07", or "2003". 
 5. mean: must be one of the fields of the CSV table, though for uploads of yields data, we will by default call this field "yield" in the provided templates
 6. n: required if and only if an SE column is given 
