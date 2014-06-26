@@ -14,7 +14,6 @@ figures/Addnewtrait1/Addnewtrait1.jpg
 Adding PFTs Species Cultivars.md
 figures/Addnewcultivar/Addnewcultivar.jpg
 bulk upload.md
-figures/yield bulk/yield bulk.jpg
 QAQC.md
 Extracting Data From Figures.md
 stat conversions.md
