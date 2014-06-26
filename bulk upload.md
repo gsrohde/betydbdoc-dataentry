@@ -15,6 +15,7 @@ There are three phases for a basic bulk upload of data :
 For now, only the steps needed to upload yields data will be outlined in order to make this case simpler. 
 
 For clarity, in what follows, the term "field" wll be used to refer to the heading used in the uploaded CSV file and the term "column" or "attribute" to refer to an attribute of a yield datum in the yields table of the database. 
+
 * **Required fields**:
 
 1. Citation
