@@ -15,7 +15,8 @@ There are three phases for a basic bulk upload of data :
 For now, only the steps needed to upload yields data will be outlined in order to make this case simpler. 
 
 For clarity, in what follows, the term "field" wll be used to refer to the heading used in the uploaded CSV file and the term "column" or "attribute" to refer to an attribute of a yield datum in the yields table of the database. 
-* **Required fields**: 
+* **Required fields**:
+
 1. Citation
     * If only one citation for the entire dataset exists, this may be specified interactively by choosing a citation on the citations page 
     * otherwise, specify in the CSV table using either (doi) or (author, year, first_n_characters_of(title)) for some number n; or perhaps (author, year, first_3_words_of(title)) 
