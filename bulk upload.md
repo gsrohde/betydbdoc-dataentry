@@ -21,7 +21,7 @@ For clarity, in what follows, the term "field" wll be used to refer to the headi
 1. Citation
     * If only one citation for the entire dataset exists, this may be specified interactively by choosing a citation on the citations page 
     * otherwise, specify in the CSV table using either (doi) or (author, year, first n characters of (title)) for some number n; or perhaps (author, year, first 3 words of (title)) 
-    * For citations, if citation_doi is available, then the rest of fields pertaining to the citation may be left blank. However, if the citation_doi is not available, then citation_author, citation_year, and citation_title must all be entered. 
+    * For citations, if citation_ doi is available, then the rest of fields pertaining to the citation may be left blank. However, if the citation_ doi is not available, then citation_ author, citation_ year, and citation_ title must all be entered. 
 2. site: use sitename 
 3. species: use scientificname 
 4. treatment: use name date: require one of the forms "2003-07-25", "2003-07", or "2003". 
