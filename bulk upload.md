@@ -23,7 +23,9 @@ For bulk data upload, or for a complete view of the tables in BETY, a blank spre
 6. n: required if and only if an SE column is given 
 7. SE: required if and only if an n column is given; this datum will be inserted into the stat column, and the statname will be set to "SE" access_level 
 Of these, the citation, site, species, treatment, and access_level may be specified interactively when uploading the dataset (if they are uniform for the whole set) rather than appearing as a field or set of fields of the CSV file. As noted above, for citations, this is done outside of the upload wizard by choosing a citation on the citations page.  
+
 * **Optional fields**:
+
 1. n and SE: as noted above, if one of these is present, the other must be as well; if SE is given, the value will go into the stat column of the yields table, and the statname column will be set to "SE" 
 2. cultivar: use name; defaults to NULL (for the cultivar_id column) if not provided 
 3. notes: defaults to the empty string if not provided 
