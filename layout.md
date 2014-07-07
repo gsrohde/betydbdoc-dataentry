@@ -1,3 +1,4 @@
+authors.md
 abstract.md
 introduction.md
 Finding Published Data.md
