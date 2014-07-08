@@ -10,3 +10,4 @@
  * Traits \ref{sec:traits}
  * Yields \ref{sec:yields}
 * Bulk uploads \ref{sec:bulk_upload}
+* QA/QC \ref{sec:qaqc}
