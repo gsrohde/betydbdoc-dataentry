@@ -6,7 +6,7 @@
  * Ciations \ref{sec:citation}
  * Site \ref{sec:site}
  * Treatments \ref{sec:treatments}
- * Managements \ref{sec:manaements}
+ * Managements \ref{sec:managements}
  * Traits \ref{sec:traits}
  * Yields \ref{sec:yields}
 * Bulk uploads \ref{sec:bulk_upload}
