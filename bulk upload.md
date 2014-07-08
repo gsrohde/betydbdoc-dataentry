@@ -34,9 +34,9 @@ Of these, the citation, site, species, treatment, and access_level may be specif
 3. SE: required if and only if an n column is given; this datum will be inserted into the stat column, and the statname will be set to "SE" access_level 
 
 ### **Data for Traits** 
-1. <variable_1>, <variable_2>, ... <variable_n>: 
+1. `<variable_1>`, `<variable_2>`, ... `<variable_n>`: 
    These column names should be replaced with values from \ref{tab:traits} (or see the [variables table](https://www.betydb.org) for a comprehensive listing).
-2. <covariate_1>, <covariate_2>, ... <covariate_n>
+2. `<covariate_1>`, `<covariate_2>`, ... \<covariate_n\>
    these columns should be replaced with values from \ref{tab:covariates}.
 3. To enter n and SE, add additional columns "<variable_1> n" and "<variable_1> SE" as needed.
  
