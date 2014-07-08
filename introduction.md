@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started \label{sec:getting_started}
 
 You will need to create the following accounts:
 
