@@ -1,4 +1,4 @@
-#  [Adding a Citation](https://www.betydb.org/citations/new)   
+#  [Adding a Citation](https://www.betydb.org/citations/new) \label{sec:citation}  
 
 Citation provides information regarding the source of the data. 
 A PDF copy of each paper should be available through Mendeley.
