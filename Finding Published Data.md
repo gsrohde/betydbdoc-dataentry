@@ -1,5 +1,5 @@
 
-# <a id="Section_2.1"></a>  Preparing Publications for Data Entry
+# Preparing Publications for Data Entry \label{sec:preparing_publications}
 
 ## Mendeley
 
