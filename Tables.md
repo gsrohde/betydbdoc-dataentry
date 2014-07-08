@@ -1,6 +1,6 @@
 #  Reference Tables
 
-**\ref{tab:managements} Managements** \label{tab:managements} This is a list of  managements to enter, with the most common management types in bold. It is more important to have management records for Yields than for traits. For greenhouse experiments, it is not necessary to include informaton on fertilizaton, lighting, or greenhouse temperature.
+**Table \ref{tab:managements} Managements** \label{tab:managements} This is a list of  managements to enter, with the most common management types in bold. It is more important to have management records for Yields than for traits. For greenhouse experiments, it is not necessary to include informaton on fertilizaton, lighting, or greenhouse temperature.
 
 | Management Type | Units | Definition | Notes |
 |:----------------|:------|:-----------|:------|
@@ -21,7 +21,7 @@
 
 
 
-**\ref{tab:dateloc}: Date level of confidence (DateLOC) field** Numbering convention for the DateLOC (Date level of confidence) and TimeLOC (Time level of confidence) field, used in managements, traits, and yields table. \label{tab:dateloc}.
+**Table \ref{tab:dateloc}: Date level of confidence (DateLOC) field** Numbering convention for the DateLOC (Date level of confidence) and TimeLOC (Time level of confidence) field, used in managements, traits, and yields table. \label{tab:dateloc}.
 
 | Dateloc | Definition |
 |:--------|:-----------|
