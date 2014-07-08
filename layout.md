@@ -1,4 +1,5 @@
 abstract.md
+TOC.md
 introduction.md
 Finding Published Data.md
 Overview.md
