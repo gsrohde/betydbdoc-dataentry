@@ -78,7 +78,7 @@ will be an F-value that can be useful, but this should not be recorded
 if MSE is available. Only if there is no other information available should you
 record the P-value.
 
-# [Adding a Yield](http://www.betydb.org/yields/new)
+# [Adding a Yield](http://www.betydb.org/yields/new) \label{ref:yields}
 
 The protocol for entering yield data is identical to entering data for a
 trait, with a few exceptions:
