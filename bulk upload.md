@@ -34,14 +34,14 @@ Of these, the citation, site, species, treatment, and access_level may be specif
 3. SE: required if and only if an n column is given; this datum will be inserted into the stat column, and the statname will be set to "SE" access_level 
 
 ### **Data for Traits** 
-1. \<variable_1\>, \<variable_2\>, ... \<variable_n\>: 
+1. \<variable\_1\>, \<variable\_2\>, ... \<variable\_n\>: 
    These column names should be replaced with values from \ref{tab:traits} (or see the [variables table](https://www.betydb.org) for a comprehensive listing).
-2. \<covariate_1\>`, \<covariate_2\>, ... \<covariate_n\>
+2. \<covariate\_1\>, \<covariate\_2\>, ... \<covariate\_n\>
    these columns should be replaced with values from \ref{tab:covariates}.
-3. To enter n and SE, add additional columns "\<variable_1\> n" and "\<variable_1\> SE" as needed.
+3. To enter n and SE, add additional columns "\<variable\_1\> n" and "\<variable\_1\> SE" as needed.
  
 
-* **Optional fields**:
+### **Optional fields**:
 
 1. n and SE: as noted above, if one of these is present, the other must be as well; if SE is given, the value will go into the stat column of the yields table, and the statname column will be set to "SE" 
 2. cultivar: use name; defaults to NULL (for the cultivar_id column) if not provided 
