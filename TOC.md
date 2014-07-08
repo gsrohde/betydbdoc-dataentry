@@ -1,3 +1,5 @@
+# Table Of Contents
+
 * Getting Started \ref{sec:getting_started}
 * Preparing Publications \ref{sec:preparing_publications}
 * Adding Data
