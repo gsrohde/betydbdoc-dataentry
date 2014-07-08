@@ -1,4 +1,4 @@
-# [Adding a Site](https://www.betydb.org/sites/new)
+# [Adding a Site](https://www.betydb.org/sites/new) \label{sec:site}
 
 Each experiment is conducted at a unique site. In the context of BETY,
 the term 'site' refers to a specific location and it is common for many
