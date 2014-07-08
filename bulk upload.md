@@ -1,4 +1,4 @@
-#  BETYdb: Bulk Data Upload
+#  BETYdb: Bulk Data Upload \label{sec:bulk_upload}
 
 Currently the web interface does not support bulk data upload, although this is a planned feature for BETY 2.0.
  
