@@ -16,7 +16,7 @@ For now, only the steps needed to upload yields data will be outlined in order t
 
 For clarity, in what follows, the term "field" wll be used to refer to the heading used in the uploaded CSV file and the term "column" or "attribute" to refer to an attribute of a yield datum in the yields table of the database. 
 
-### **Required fields**:
+## **Required fields**:
 
 1. Citation
     * If only one citation for the entire dataset exists, this may be specified interactively by choosing a citation on the citations page 
@@ -28,12 +28,12 @@ For clarity, in what follows, the term "field" wll be used to refer to the headi
 
 Of these, the citation, site, species, treatment, and access_level may be specified interactively when uploading the dataset (if they are uniform for the whole set) rather than appearing as a field or set of fields of the CSV file. As noted above, for citations, this is done outside of the upload wizard by choosing a citation on the citations page.  
 
-### **Data for Yields** 
+## **Data for Yields** 
 1. mean: must be one of the fields of the CSV table, though for uploads of yields data, we will by default call this field "yield" in the provided templates
 2. n: required if and only if an SE column is given 
 3. SE: required if and only if an n column is given; this datum will be inserted into the stat column, and the statname will be set to "SE" access_level 
 
-### **Data for Traits** 
+## **Data for Traits** 
 1. \<variable\_1\>, \<variable\_2\>, ... \<variable\_n\>: 
    These column names should be replaced with values from \ref{tab:traits} (or see the [variables table](https://www.betydb.org) for a comprehensive listing).
 2. \<covariate\_1\>, \<covariate\_2\>, ... \<covariate\_n\>
@@ -41,7 +41,7 @@ Of these, the citation, site, species, treatment, and access_level may be specif
 3. To enter n and SE, add additional columns "\<variable\_1\> n" and "\<variable\_1\> SE" as needed.
  
 
-### **Optional fields**:
+## **Optional fields**:
 
 1. n and SE: as noted above, if one of these is present, the other must be as well; if SE is given, the value will go into the stat column of the yields table, and the statname column will be set to "SE" 
 2. cultivar: use name; defaults to NULL (for the cultivar_id column) if not provided 
