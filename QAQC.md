@@ -1,4 +1,4 @@
-# QA/QC with the Web Interface
+# QA/QC with the Web Interface \label{sec:qaqc}
 
 Quality assurance and quality control (QA/QC) is a critical step that is
 used to ensure the validity of data in the database and of the analyses
