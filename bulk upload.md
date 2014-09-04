@@ -24,7 +24,8 @@ For clarity, in what follows, the term "field" wll be used to refer to the headi
     * For citations, if citation_ doi is available, then the rest of fields pertaining to the citation may be left blank. However, if the citation_ doi is not available, then citation_ author, citation_ year, and citation_ title must all be entered. 
 2. site: use sitename 
 3. species: use scientificname 
-4. treatment: use name date: require one of the forms "2003-07-25", "2003-07", or "2003". 
+4. treatment: use name 
+5. date: require one of the forms "2003-07-25", "2003-07", or "2003". 
 
 Of these, the citation, site, species, treatment, and access_level may be specified interactively when uploading the dataset (if they are uniform for the whole set) rather than appearing as a field or set of fields of the CSV file. As noted above, for citations, this is done outside of the upload wizard by choosing a citation on the citations page.  
 
