@@ -100,7 +100,7 @@ Most important, there will be a strong covariance between Vcmax and stomatal_slo
 | Variable | Required Covariates | Optional Covariates |
 |:---------|:--------------------|:--------------------|
 | vcmax |  temperature (leafT or airT) |irradiance |
-|any leaf measurement | | canopy height |
+|any leaf measurement | | canopy_height or canopy_layer |
 | root\_respiration\_rate | temperature (rootT or soilT)| soil moisture |
 | | root\_diameter\_max | root size class (usually 2mm) |
 | any respiration | temperature | |
