@@ -5,4 +5,5 @@ Rachel Bonet,
 Emily Cheng,
 Michael Dietze,
 Patrick Mulrooney,
+Scott Rohde,
 Andy Tu
