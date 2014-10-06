@@ -18,14 +18,26 @@ For clarity, in what follows, the term "field" wll be used to refer to the headi
 
 ## **Required fields**:
 
+1. For yields uploads, the only required field is a `yield` column.
+2. For trait uploads, there must be at least one column whose label exactly matches the variable name for the trait value being specified.  (Leading and trailing spaces are permitted, but letter case must exactly match the name of the variable specified in the database.)
+
+## Information that may be specified globally for the entire dataset.
+
+
 1. Citation
-    * If only one citation for the entire dataset exists, this may be specified interactively by choosing a citation on the citations page 
-    * otherwise, specify in the CSV table using either (doi) or (author, year, first n characters of (title)) for some number n; or perhaps (author, year, first 3 words of (title))
-    * For citations, if citation_ doi is available, then the rest of fields pertaining to the citation may be left blank. However, if the citation_ doi is not available, then citation_ author, citation_ year, and citation_ title must all be entered. 
-2. site: use sitename 
-3. species: use scientificname 
-4. treatment: use name 
-5. date: require one of the forms "2003-07-25", "2003-07", or "2003". 
+    * If only one citation for the entire dataset exists, it may be specified interactively by choosing a citation on the citations page instead of including citation information in the CSV file.
+    * Otherwise, specify the citation in the CSV table using either (doi) or (author, year, first n characters of (title)) for some number n; or perhaps (author, year, first 3 words of (title)) _[Clarify this.  Currently, the full title must be specified.]_
+    * If a `citation_doi` is available for all citations in the data set, the citation corresponding to each row may be specified in a `citation_doi` column.  In this case, the `citation_author`, `citation_year`, and `citation_title` columns must all be deleted.  (Alternatively, the string `-ignore` may be appended to each of these headings.  One might want to do this, for example, to keep a visual record of the author, year, and title even when it is the citation doi that is being used to determine how the data will associated with a citation in the database.)
+    * Conversely, if a `citation_doi` is not available for all citations in the data set, or if it is preferred to specify the citation by author, year, and title, then the `citation_doi` column should be deleted and the `citation_author`, `citation_year`, and `citation_title` must all be entered. 
+2. Site
+    * If all of the data in the data set pertains to a single site, that site may be specified interactively.
+    * Otherwise, the `site` column is required.  The value must match an existing `sitename` column value in the `sites` table of the database.  (Letter case, leading and trailing spaces, and extra internal spaces are ignored when searching for a match.) 
+3. Species
+    * If all of the data in the data set pertains to a single species, that species may be specified interactively.
+    * Otherwise, the `species` column is required.  The value must match an existing `scientificname` column value in the `species` table of the database.  (Again, letter case, leading and trailing spaces, and extra internal spaces are ignored when searching for a match.) 
+4. Treatment
+    *       use name 
+5. date: require one of the forms "2003-07-25", "2003-07", or "2003".
 
 Of these, the citation, site, species, treatment, and access_level may be specified interactively when uploading the dataset (if they are uniform for the whole set) rather than appearing as a field or set of fields of the CSV file. As noted above, for citations, this is done outside of the upload wizard by choosing a citation on the citations page.  
 
